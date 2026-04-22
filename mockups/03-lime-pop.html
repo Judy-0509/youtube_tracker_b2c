@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>클리키 — Lime Pop</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: 'Pretendard', sans-serif; background: #FFFFFF; color: #000; -webkit-font-smoothing: antialiased; }
+  .display { font-family: 'Space Grotesk', 'Pretendard', sans-serif; letter-spacing: -0.04em; }
+  .num { font-feature-settings: 'tnum'; font-family: 'Space Grotesk', sans-serif; }
+  .lime { background: #BEF264; }
+  .lime-text { color: #84CC16; }
+  .red-pop { color: #FF3B30; background: #FF3B30; }
+  .border-thick { border: 3px solid #000; }
+  .border-thick-2 { border: 2px solid #000; }
+  .product-img { background: linear-gradient(135deg, #BEF264 0%, #65A30D 100%); }
+  .product-img-2 { background: linear-gradient(135deg, #FBCFE8 0%, #EC4899 100%); }
+  .product-img-3 { background: linear-gradient(135deg, #FEF08A 0%, #EAB308 100%); }
+  .product-img-4 { background: linear-gradient(135deg, #BFDBFE 0%, #3B82F6 100%); }
+  .product-img-5 { background: linear-gradient(135deg, #DDD6FE 0%, #8B5CF6 100%); }
+  .video-thumb { background: #000; }
+  .shadow-pop { box-shadow: 6px 6px 0 #000; }
+  .shadow-pop-sm { box-shadow: 4px 4px 0 #000; }
+  .ticker { animation: marquee 30s linear infinite; }
+  @keyframes marquee { from{transform:translateX(0);} to{transform:translateX(-50%);} }
+</style>
+</head>
+<body>
+
+<!-- Top ticker -->
+<div class="lime border-b-2 border-black overflow-hidden">
+  <div class="flex ticker py-1.5 whitespace-nowrap text-sm font-bold">
+    <span class="px-6">⚡ 메디큐브 제로 모공 패드 +312%</span>•
+    <span class="px-6">🔥 톤업크림 추천 +89% 검색급증</span>•
+    <span class="px-6">🎬 이사배 신상 쿠션 리뷰 52만뷰</span>•
+    <span class="px-6">📈 토리든 다이브인 세럼 +245%</span>•
+    <span class="px-6">⚡ 메디큐브 제로 모공 패드 +312%</span>•
+    <span class="px-6">🔥 톤업크림 추천 +89% 검색급증</span>•
+    <span class="px-6">🎬 이사배 신상 쿠션 리뷰 52만뷰</span>•
+    <span class="px-6">📈 토리든 다이브인 세럼 +245%</span>•
+  </div>
+</div>
+
+<!-- Header -->
+<header class="border-b-2 border-black bg-white">
+  <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+    <a href="#" class="display text-3xl font-black">CLICKYY*</a>
+    <nav class="hidden md:flex items-center gap-6 text-sm font-bold">
+      <a href="#" class="border-b-2 border-black">트렌드</a>
+      <a href="#" class="hover:lime-text">검색어</a>
+      <a href="#" class="hover:lime-text">신상리뷰</a>
+      <a href="#" class="hover:lime-text">요금제</a>
+    </nav>
+    <button class="lime border-thick-2 px-5 py-2 font-black text-sm shadow-pop-sm hover:translate-x-0.5 hover:translate-y-0.5 hover:shadow-none transition-all">START FREE →</button>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="border-b-2 border-black">
+  <div class="max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-3 gap-8 items-center">
+    <div class="md:col-span-2">
+      <div class="inline-block lime border-thick-2 px-3 py-1 text-xs font-black mb-6 shadow-pop-sm">⚡ 매일 오전 9시 NEW</div>
+      <h1 class="display text-7xl md:text-8xl font-black leading-none mb-8">
+        뜨는 거,<br/>
+        <span class="lime px-3 -mx-3 inline-block transform -rotate-1">먼저</span><br/>
+        보세요.
+      </h1>
+      <p class="text-xl font-medium mb-8 max-w-xl">
+        다음 영상 소재 30분 만에 발견 ✨<br/>
+        뷰티 트렌드, 검색어, 신상 리뷰 — 한 화면에서.
+      </p>
+      <div class="flex items-center gap-3">
+        <button class="bg-black text-white px-7 py-4 font-black text-base hover:lime hover:text-black transition-colors">무료로 시작 →</button>
+        <button class="border-thick-2 px-7 py-4 font-black text-base hover:lime transition-colors">데모 보기</button>
+      </div>
+    </div>
+    <div class="lime border-thick-2 p-8 shadow-pop transform rotate-2">
+      <div class="text-xs font-black mb-2">📊 LIVE NOW</div>
+      <div class="display text-7xl font-black num leading-none">2,847</div>
+      <div class="text-xs font-bold mt-2">제품 추적 중</div>
+      <div class="border-t-2 border-black my-4"></div>
+      <div class="text-xs font-black mb-2">🎬 모니터링 중</div>
+      <div class="display text-7xl font-black num leading-none">709</div>
+      <div class="text-xs font-bold mt-2">유튜브 채널</div>
+    </div>
+  </div>
+</section>
+
+<!-- Trending Products -->
+<section class="max-w-7xl mx-auto px-6 py-16">
+  <div class="flex items-end justify-between mb-10">
+    <div>
+      <h2 class="display text-6xl font-black leading-none mb-3">이번주 <span class="lime px-2 -mx-2">불</span></h2>
+      <p class="text-base font-medium">유튜브 + 인스타 + 검색량 종합 · 4월 22일 기준</p>
+    </div>
+    <div class="flex gap-2">
+      <button class="bg-black text-white px-4 py-2 font-bold text-sm">전체</button>
+      <button class="border-thick-2 px-4 py-2 font-bold text-sm hover:lime">스킨</button>
+      <button class="border-thick-2 px-4 py-2 font-bold text-sm hover:lime">메이크업</button>
+      <button class="border-thick-2 px-4 py-2 font-bold text-sm hover:lime">헤어</button>
+    </div>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-5">
+    <article class="border-thick-2 bg-white shadow-pop hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all">
+      <div class="product-img h-44 relative border-b-2 border-black">
+        <div class="absolute top-2 left-2 bg-black text-white text-xl font-black w-10 h-10 flex items-center justify-center">1</div>
+        <div class="absolute bottom-2 right-2 bg-white border-thick-2 px-2 py-0.5 text-xs font-black">+312%</div>
+      </div>
+      <div class="p-4">
+        <div class="text-xs font-bold mb-1 lime-text">메디큐브</div>
+        <h3 class="font-black text-base leading-tight mb-3">제로 모공 패드 2.0</h3>
+        <div class="flex items-center justify-between text-xs font-bold">
+          <span>11.2K 언급</span>
+          <span class="lime px-2 py-0.5">🔥 HOT</span>
+        </div>
+      </div>
+    </article>
+    <article class="border-thick-2 bg-white shadow-pop hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all">
+      <div class="product-img-2 h-44 relative border-b-2 border-black">
+        <div class="absolute top-2 left-2 bg-black text-white text-xl font-black w-10 h-10 flex items-center justify-center">2</div>
+        <div class="absolute bottom-2 right-2 bg-white border-thick-2 px-2 py-0.5 text-xs font-black">+245%</div>
+      </div>
+      <div class="p-4">
+        <div class="text-xs font-bold mb-1 lime-text">토리든</div>
+        <h3 class="font-black text-base leading-tight mb-3">다이브인 히알루론산 세럼</h3>
+        <div class="flex items-center justify-between text-xs font-bold">
+          <span>8.7K 언급</span>
+          <span class="lime px-2 py-0.5">🔥 HOT</span>
+        </div>
+      </div>
+    </article>
+    <article class="border-thick-2 bg-white shadow-pop hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all">
+      <div class="product-img-3 h-44 relative border-b-2 border-black">
+        <div class="absolute top-2 left-2 bg-black text-white text-xl font-black w-10 h-10 flex items-center justify-center">3</div>
+        <div class="absolute bottom-2 right-2 bg-white border-thick-2 px-2 py-0.5 text-xs font-black">+198%</div>
+      </div>
+      <div class="p-4">
+        <div class="text-xs font-bold mb-1 lime-text">구달</div>
+        <h3 class="font-black text-base leading-tight mb-3">청귤 비타C 다크스팟 세럼</h3>
+        <div class="flex items-center justify-between text-xs font-bold">
+          <span>7.2K 언급</span>
+          <span class="lime px-2 py-0.5">🔥 HOT</span>
+        </div>
+      </div>
+    </article>
+    <article class="border-thick-2 bg-white shadow-pop hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all">
+      <div class="product-img-4 h-44 relative border-b-2 border-black">
+        <div class="absolute top-2 left-2 bg-black text-white text-xl font-black w-10 h-10 flex items-center justify-center">4</div>
+        <div class="absolute bottom-2 right-2 bg-white border-thick-2 px-2 py-0.5 text-xs font-black">+156%</div>
+      </div>
+      <div class="p-4">
+        <div class="text-xs font-bold mb-1 lime-text">라운드랩</div>
+        <h3 class="font-black text-base leading-tight mb-3">자작나무 수분 토너</h3>
+        <div class="flex items-center justify-between text-xs font-bold">
+          <span>6.4K 언급</span>
+          <span class="bg-yellow-300 px-2 py-0.5">📈 UP</span>
+        </div>
+      </div>
+    </article>
+    <article class="border-thick-2 bg-white shadow-pop hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all">
+      <div class="product-img-5 h-44 relative border-b-2 border-black">
+        <div class="absolute top-2 left-2 bg-black text-white text-xl font-black w-10 h-10 flex items-center justify-center">5</div>
+        <div class="absolute bottom-2 right-2 bg-white border-thick-2 px-2 py-0.5 text-xs font-black">+142%</div>
+      </div>
+      <div class="p-4">
+        <div class="text-xs font-bold mb-1 lime-text">정샘물</div>
+        <h3 class="font-black text-base leading-tight mb-3">스킨 누더 글로우 에센스</h3>
+        <div class="flex items-center justify-between text-xs font-bold">
+          <span>5.9K 언급</span>
+          <span class="bg-yellow-300 px-2 py-0.5">📈 UP</span>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- 2 col -->
+<section class="max-w-7xl mx-auto px-6 pb-16 grid grid-cols-1 lg:grid-cols-2 gap-8">
+  <div class="lime border-thick-2 p-8 shadow-pop">
+    <div class="flex items-center justify-between mb-6">
+      <h2 class="display text-3xl font-black">검색어 차트</h2>
+      <span class="text-xs font-black bg-black text-white px-3 py-1">📈 24H</span>
+    </div>
+    <div class="space-y-3">
+      <div class="bg-white border-thick-2 p-4 flex items-center justify-between hover:translate-x-1 transition-transform">
+        <div class="flex items-center gap-4">
+          <span class="display num text-3xl font-black">01</span>
+          <span class="font-black text-lg">톤업크림 추천</span>
+        </div>
+        <span class="display num text-2xl font-black">+89%</span>
+      </div>
+      <div class="bg-white border-thick-2 p-4 flex items-center justify-between hover:translate-x-1 transition-transform">
+        <div class="flex items-center gap-4">
+          <span class="display num text-3xl font-black">02</span>
+          <span class="font-black text-lg">여드름 패치 비교</span>
+        </div>
+        <span class="display num text-2xl font-black">+76%</span>
+      </div>
+      <div class="bg-white border-thick-2 p-4 flex items-center justify-between hover:translate-x-1 transition-transform">
+        <div class="flex items-center gap-4">
+          <span class="display num text-3xl font-black">03</span>
+          <span class="font-black text-lg">입술 각질 제거</span>
+        </div>
+        <span class="display num text-2xl font-black">+64%</span>
+      </div>
+      <div class="bg-white border-thick-2 p-4 flex items-center justify-between hover:translate-x-1 transition-transform">
+        <div class="flex items-center gap-4">
+          <span class="display num text-3xl font-black">04</span>
+          <span class="font-black text-lg">다크서클 컨실러</span>
+        </div>
+        <span class="display num text-2xl font-black">+58%</span>
+      </div>
+      <div class="bg-white border-thick-2 p-4 flex items-center justify-between hover:translate-x-1 transition-transform">
+        <div class="flex items-center gap-4">
+          <span class="display num text-3xl font-black">05</span>
+          <span class="font-black text-lg">모공 줄이는 토너</span>
+        </div>
+        <span class="display num text-2xl font-black">+45%</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-black text-white border-thick-2 p-8 shadow-pop">
+    <div class="flex items-center justify-between mb-6">
+      <h2 class="display text-3xl font-black lime-text">유튜브 신상</h2>
+      <span class="text-xs font-black lime text-black px-3 py-1">🎬 LIVE</span>
+    </div>
+    <div class="space-y-4">
+      <a href="#" class="flex gap-4 group p-3 hover:lime hover:text-black transition-colors">
+        <div class="lime w-28 h-20 flex-shrink-0 flex items-center justify-center">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="black"><path d="M8 5v14l11-7z"/></svg>
+        </div>
+        <div class="flex-1 min-w-0">
+          <h4 class="font-black text-sm leading-snug mb-1">신상 쿠션 5종 솔직 리뷰 — 이게 진짜 1등?</h4>
+          <div class="text-xs">이사배 · 52만뷰 · 2시간 전</div>
+        </div>
+      </a>
+      <a href="#" class="flex gap-4 group p-3 hover:lime hover:text-black transition-colors">
+        <div class="lime w-28 h-20 flex-shrink-0 flex items-center justify-center">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="black"><path d="M8 5v14l11-7z"/></svg>
+        </div>
+        <div class="flex-1 min-w-0">
+          <h4 class="font-black text-sm leading-snug mb-1">올영 세일 사야하는 것 vs 거를 것</h4>
+          <div class="text-xs">PONY · 38만뷰 · 6시간 전</div>
+        </div>
+      </a>
+      <a href="#" class="flex gap-4 group p-3 hover:lime hover:text-black transition-colors">
+        <div class="lime w-28 h-20 flex-shrink-0 flex items-center justify-center">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="black"><path d="M8 5v14l11-7z"/></svg>
+        </div>
+        <div class="flex-1 min-w-0">
+          <h4 class="font-black text-sm leading-snug mb-1">이번에 산 거 다 보여드림</h4>
+          <div class="text-xs">씬님 · 24만뷰 · 12시간 전</div>
+        </div>
+      </a>
+      <a href="#" class="flex gap-4 group p-3 hover:lime hover:text-black transition-colors">
+        <div class="lime w-28 h-20 flex-shrink-0 flex items-center justify-center">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="black"><path d="M8 5v14l11-7z"/></svg>
+        </div>
+        <div class="flex-1 min-w-0">
+          <h4 class="font-black text-sm leading-snug mb-1">자작나무 토너 한달 후기</h4>
+          <div class="text-xs">LeoJ Makeup · 18만뷰 · 18시간 전</div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Pricing -->
+<section class="border-t-2 border-black lime">
+  <div class="max-w-5xl mx-auto px-6 py-20 text-center">
+    <h2 class="display text-6xl font-black mb-4">월 ₩29,900에<br/>다 가져가세요.</h2>
+    <p class="font-bold text-lg mb-12">14일 무료 체험 · 언제든 해지</p>
+    <div class="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto text-left">
+      <div class="bg-white border-thick-2 p-8 shadow-pop">
+        <h3 class="display text-3xl font-black mb-2">FREE</h3>
+        <p class="font-bold text-sm mb-6">맛만 보고 싶으면</p>
+        <div class="mb-6 pb-6 border-b-2 border-black">
+          <span class="display num text-5xl font-black">₩0</span>
+          <span class="font-bold">/월</span>
+        </div>
+        <ul class="space-y-2 text-sm font-bold mb-8">
+          <li>✓ 주간 Top 5</li>
+          <li>✓ 카테고리 1개</li>
+          <li>✓ 검색어 (제한)</li>
+          <li class="opacity-30">✗ 알림</li>
+        </ul>
+        <button class="w-full bg-white border-thick-2 py-3 font-black hover:lime transition-colors">시작하기</button>
+      </div>
+      <div class="bg-black text-white border-thick-2 p-8 shadow-pop relative">
+        <div class="absolute -top-3 -right-3 lime border-thick-2 text-black px-3 py-1 text-xs font-black transform rotate-3">⭐ 인기</div>
+        <h3 class="display text-3xl font-black lime-text mb-2">PRO</h3>
+        <p class="font-bold text-sm mb-6 lime-text">제대로 할 거면</p>
+        <div class="mb-6 pb-6 border-b-2 border-white">
+          <span class="display num text-5xl font-black">₩29,900</span>
+          <span class="font-bold">/월</span>
+        </div>
+        <ul class="space-y-2 text-sm font-bold mb-8">
+          <li>✓ 일간 업데이트</li>
+          <li>✓ 모든 카테고리</li>
+          <li>✓ 트렌드 알림</li>
+          <li>✓ CSV 내보내기</li>
+          <li>✓ 신상 리뷰 검색</li>
+        </ul>
+        <button class="w-full lime text-black border-thick-2 py-3 font-black hover:bg-white transition-colors">14일 무료 체험 →</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-black text-white py-8 text-center">
+  <div class="display text-xl font-black">CLICKYY*</div>
+  <div class="text-xs mt-2 opacity-60">© 2026 · 뷰티 트렌드 한 발 먼저</div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,4374 @@
+{
+  "version": "1.0",
+  "generated": "2026-04-20",
+  "note": "Discovered via search.list(type=channel, regionCode=KR, relevantLanguage=ko). Filtered by country=KR / defaultLanguage=ko / Korean text in title/description.",
+  "total": 302,
+  "creators": [
+    {
+      "channel_id": "UCT-_4GqC-yLY1xtTHhwY0hA",
+      "handle": "@ponymakeup",
+      "name": "PONY Syndrome",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 5870000,
+      "subscriber_tier": "mega",
+      "video_count": 283,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC9kmlDcqksaOnCkC_qzGacA",
+      "handle": "@risabae",
+      "name": "RISABAE",
+      "country": "KR",
+      "default_language": "ko",
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 2680000,
+      "subscriber_tier": "mega",
+      "video_count": 672,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC7gDQCxC1wr955ECW6wSOoA",
+      "handle": "@lulupang",
+      "name": "LULUPANG 루루팡",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 2290000,
+      "subscriber_tier": "mega",
+      "video_count": 226,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCmzMtXrJgfCqA0rfhz8_P4A",
+      "handle": "@wootso",
+      "name": "웃소 Wootso",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 2030000,
+      "subscriber_tier": "mega",
+      "video_count": 1799,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCuZu8NrpBG4WPXRi-hPBl-A",
+      "handle": "@hyojin94517",
+      "name": "조효진 Hyojin Cho",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 1950000,
+      "subscriber_tier": "mega",
+      "video_count": 499,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCn_fZLXut_Tj9-QihG_9l0g",
+      "handle": "@anda",
+      "name": "안다 ANDA",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 1550000,
+      "subscriber_tier": "mega",
+      "video_count": 588,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCnFFOjljp1_sacTz7PfIIyg",
+      "handle": "@leojmakeup",
+      "name": "LeoJ Makeup",
+      "country": "KR",
+      "default_language": "ko",
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 1450000,
+      "subscriber_tier": "mega",
+      "video_count": 745,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC5xK2Xdrud3-KGjkS1Igumg",
+      "handle": "@ssinnim",
+      "name": "ssin 씬님",
+      "country": "KR",
+      "default_language": "ko",
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 1420000,
+      "subscriber_tier": "mega",
+      "video_count": 1079,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCxM21Vv4bWq106MxIPvrGQw",
+      "handle": "@sunnyschannel",
+      "name": "써니채널 Sunny's Channel",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 1200000,
+      "subscriber_tier": "mega",
+      "video_count": 272,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCqrNqg3UgVoD3Sa-F_TxuSA",
+      "handle": "@director_pihyunjung",
+      "name": "디렉터 파이",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 1040000,
+      "subscriber_tier": "mega",
+      "video_count": 658,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCF2ecghgS_p1F925r-cIfdQ",
+      "handle": "@hotsauceuniverse",
+      "name": "핫소스",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 1020000,
+      "subscriber_tier": "mega",
+      "video_count": 776,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCpOtHjfr_hcAhPTky6OWcHA",
+      "handle": "@seb1nnn",
+      "name": "세빈 SEBIN",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 990000,
+      "subscriber_tier": "mid",
+      "video_count": 157,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCIBp7eB3u-3h1exkj5y4loA",
+      "handle": "@acoreanabeauty",
+      "name": "A Coreana Beauty 소연뷰티",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 871000,
+      "subscriber_tier": "mid",
+      "video_count": 294,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCK8lLbMbQdg_hjRLNBLDBBw",
+      "handle": "@darcie.j",
+      "name": "달씨Darcie",
+      "country": "KR",
+      "default_language": "ko",
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 829000,
+      "subscriber_tier": "mid",
+      "video_count": 347,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCbwy5KgaKa-W6Ladj3iN4mw",
+      "handle": "@jella_",
+      "name": "Jella젤라",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 811000,
+      "subscriber_tier": "mid",
+      "video_count": 363,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC81bxgGwnjeN7pLPJFci9uw",
+      "handle": "@una_only",
+      "name": "UNA 유나",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 808000,
+      "subscriber_tier": "mid",
+      "video_count": 175,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCoqkR26bl8dc7C19psm6whg",
+      "handle": "@wested_arin908",
+      "name": "아린 wested_arin",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 801000,
+      "subscriber_tier": "mid",
+      "video_count": 139,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCgCxYP5uSCNyFTV-PEbKhew",
+      "handle": "@heejooyoo",
+      "name": "Heejoo 희주",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 772000,
+      "subscriber_tier": "mid",
+      "video_count": 186,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC2viazvlrvicBWCIWHKd70Q",
+      "handle": "@rarelee",
+      "name": "레어리 Rarelee",
+      "country": null,
+      "default_language": "ko",
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 772000,
+      "subscriber_tier": "mid",
+      "video_count": 259,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC0TR0Ciw0rQSJzgU5NiwvRQ",
+      "handle": "@동네의사이상욱",
+      "name": "동네 의사 이상욱",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 768000,
+      "subscriber_tier": "mid",
+      "video_count": 231,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCc_vOO8-XNMT8KmIVTEbt5g",
+      "handle": "@soy00n",
+      "name": "소윤Soyoon",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 754000,
+      "subscriber_tier": "mid",
+      "video_count": 526,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCf3b81YFYvGMtx3KBrnpsLg",
+      "handle": "@evalet",
+      "name": "에바EVA",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 750000,
+      "subscriber_tier": "mid",
+      "video_count": 703,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC9gW47NqzI1x7e8qsflvUUw",
+      "handle": "@hanbyul",
+      "name": "한별Hanbyul",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 738000,
+      "subscriber_tier": "mid",
+      "video_count": 372,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCTQGAYPtbnCEfW9IGx65kiw",
+      "handle": "@minsco_",
+      "name": "Minsco 민스코",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 729000,
+      "subscriber_tier": "mid",
+      "video_count": 812,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCyEND5Fs12dRsUsmjBy4ZbQ",
+      "handle": "@_sxxyeon_",
+      "name": "남서연SEOYEON",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 721000,
+      "subscriber_tier": "mid",
+      "video_count": 232,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCAUbDYDwV34yk6pYiZg_CzA",
+      "handle": "@yeondukong",
+      "name": "yeondukong 연두콩",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 713000,
+      "subscriber_tier": "mid",
+      "video_count": 608,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCtCpkkzNnYixE9GEJVaCI8g",
+      "handle": "@jungsaemmool",
+      "name": "JUNGSAEMMOOL",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 678000,
+      "subscriber_tier": "mid",
+      "video_count": 1027,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCk1Sf4I5TTqj6Fbj1Ly9IGQ",
+      "handle": "@killuada",
+      "name": "짜잔씨 misstada",
+      "country": null,
+      "default_language": "ko",
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 626000,
+      "subscriber_tier": "mid",
+      "video_count": 90,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC30j37FNLZvJy1LHiQed9lw",
+      "handle": "@amyglamy",
+      "name": "에이미Amy",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 615000,
+      "subscriber_tier": "mid",
+      "video_count": 285,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCH2mJnztSdNh8ADp2KmtUMQ",
+      "handle": "@yootrue",
+      "name": "Yoo True",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 598000,
+      "subscriber_tier": "mid",
+      "video_count": 1103,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCzUV_ldqQyp17-scwBANlsg",
+      "handle": "@lifeofkim",
+      "name": "다영 DAYEONG",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 588000,
+      "subscriber_tier": "mid",
+      "video_count": 594,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCjPyAhNXoY0c8v0B3rr-D2Q",
+      "handle": "@youandain",
+      "name": "유앤아인Youandain",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 584000,
+      "subscriber_tier": "mid",
+      "video_count": 214,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCrlUlicedicJ5mlibqC62Eg",
+      "handle": "@beautyacne_inssi",
+      "name": "뷰드름 유튜버 인씨",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 564000,
+      "subscriber_tier": "mid",
+      "video_count": 1141,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC8P33HyFhfqThDUGk0disqw",
+      "handle": "@jeyu",
+      "name": "재유JEYU",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 560000,
+      "subscriber_tier": "mid",
+      "video_count": 902,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCfldmTAkWErTcbiAA9GeVxg",
+      "handle": "@leeanfilm",
+      "name": "leeanfilm리안",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 544000,
+      "subscriber_tier": "mid",
+      "video_count": 256,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCUrCIBJ3ScRAOLgPElscZqA",
+      "handle": "@in_bora_",
+      "name": "INBORA인보라",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 536000,
+      "subscriber_tier": "mid",
+      "video_count": 1011,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCPhP8VrLREoTLTON63of0GA",
+      "handle": "@mskinsos",
+      "name": "피부는민동성",
+      "country": "KR",
+      "default_language": "ko",
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 520000,
+      "subscriber_tier": "mid",
+      "video_count": 147,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCZCvbWrBFGQeZwf5qczqLFg",
+      "handle": "@yootrueonair",
+      "name": "YOOTRUE ON AIR",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 511000,
+      "subscriber_tier": "mid",
+      "video_count": 1072,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCY2YdDn7zXtRbNR0fJ9V_YQ",
+      "handle": "@arang_",
+      "name": "Arang 아랑",
+      "country": "KR",
+      "default_language": "ko",
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 500000,
+      "subscriber_tier": "mid",
+      "video_count": 958,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UChaTUCM7bPBTJaIZQ83PNwQ",
+      "handle": "@스완_현실남자관리",
+      "name": "스완SWAN_현실남자관리",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 492000,
+      "subscriber_tier": "mid",
+      "video_count": 1109,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCHjEdCXNYyvgWWcCZVTxWHA",
+      "handle": "@티벳동생",
+      "name": "티벳동생",
+      "country": "KR",
+      "default_language": "ko",
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 486000,
+      "subscriber_tier": "mid",
+      "video_count": 606,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC0-yyrDjTJ1YFzmV12vEp0Q",
+      "handle": "@ssinxxi123",
+      "name": "시네 si-ne",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 480000,
+      "subscriber_tier": "mid",
+      "video_count": 459,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCChdHmdkgTpk0iyuODYxJIw",
+      "handle": "@haenibeauty",
+      "name": "해니 haeni beauty",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 477000,
+      "subscriber_tier": "mid",
+      "video_count": 511,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCURnLWTrLZVv_KiVaeZakog",
+      "handle": "@jiwondm_028",
+      "name": "Jiwon 지원",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 467000,
+      "subscriber_tier": "mid",
+      "video_count": 1524,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCBoQ8_HIOVbOA_FuYtTapqA",
+      "handle": "@yujeong",
+      "name": "유정 YUJEONG",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 455000,
+      "subscriber_tier": "mid",
+      "video_count": 602,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCGIjeBB5ZLBAhQvDxiZpGmw",
+      "handle": "@hoooooolys",
+      "name": "홀리 holy",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 448000,
+      "subscriber_tier": "mid",
+      "video_count": 744,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC32Bc-64lV0NTREsbdbWacg",
+      "handle": "@go8832",
+      "name": "GO지승",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 447000,
+      "subscriber_tier": "mid",
+      "video_count": 206,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCZlTEEKh3ounqVfpf21WMeQ",
+      "handle": "@choimona",
+      "name": "최모나choimona",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 444000,
+      "subscriber_tier": "mid",
+      "video_count": 891,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCJC3eND1vV_MR_UJB7-E9LQ",
+      "handle": "@mincarong",
+      "name": "민카롱",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 436000,
+      "subscriber_tier": "mid",
+      "video_count": 603,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCRXL4vnST2AE6UtjrYMv4tw",
+      "handle": "@뽀용뇽",
+      "name": "뽀용뇽 l 남다른 뷰티꿀팁",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 436000,
+      "subscriber_tier": "mid",
+      "video_count": 644,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCXuzhVKNO9ZLm1q7edeipIw",
+      "handle": "@soobeauty_official",
+      "name": "Soo Beauty 수뷰티 ",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 418000,
+      "subscriber_tier": "mid",
+      "video_count": 1239,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UClJNgnMWzvEzJuLcpH7m4vQ",
+      "handle": "@jaymeeforyou",
+      "name": "제이미포유 Jaymeeforyou",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 411000,
+      "subscriber_tier": "mid",
+      "video_count": 591,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC3ZQbE9FKR8TwHYqTNcIXQQ",
+      "handle": "@hoonion",
+      "name": "HOONION",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 408000,
+      "subscriber_tier": "mid",
+      "video_count": 1094,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC0z8bddfRBRBmEC-AjI6UXw",
+      "handle": "@zkern",
+      "name": "지컨",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 406000,
+      "subscriber_tier": "mid",
+      "video_count": 1855,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCvpD0KP2b7nVLbEAydjjNaQ",
+      "handle": "@iamstarryyhayy",
+      "name": "코코초 COCOCHO",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 398000,
+      "subscriber_tier": "mid",
+      "video_count": 264,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCANG9nPHHhmyOtMVk0bWgaA",
+      "handle": "@dailydaye",
+      "name": "다예 Daily Daye",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 389000,
+      "subscriber_tier": "mid",
+      "video_count": 296,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCQlH1ppmoTCx9F1vV0XqPtg",
+      "handle": "@ches",
+      "name": "체스CHES",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 386000,
+      "subscriber_tier": "mid",
+      "video_count": 351,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCW67yGQxNNMnLqRHyaTjygA",
+      "handle": "@hongsmakeup",
+      "name": "Hong's MakeuPlay 홍이모",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 385000,
+      "subscriber_tier": "mid",
+      "video_count": 886,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCcNYkzLMSkSiYaiAYjUNzRg",
+      "handle": "@kimcrysta1",
+      "name": "김크리스탈 KimCrystal",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 385000,
+      "subscriber_tier": "mid",
+      "video_count": 236,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCk1BE73NfSUGz19LpNg9E-w",
+      "handle": "@shinydailymiracle",
+      "name": "데일리 미라클",
+      "country": "KR",
+      "default_language": "ko",
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 384000,
+      "subscriber_tier": "mid",
+      "video_count": 756,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCE7q5DzYcRYWObUNIpdO70A",
+      "handle": "@뷰티마우스",
+      "name": "뷰티마우스",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 382000,
+      "subscriber_tier": "mid",
+      "video_count": 348,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCQ_uqhCWc2Xg3wOUCeezHTA",
+      "handle": "@sobongofficial",
+      "name": "sobong official",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 375000,
+      "subscriber_tier": "mid",
+      "video_count": 279,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCVbW7vOtOnmjyDORZB4Sz0w",
+      "handle": "@jung__won.k",
+      "name": "관리는 하고 살자",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 358000,
+      "subscriber_tier": "mid",
+      "video_count": 605,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCRiIf6rt91BVfZVtURRXlOw",
+      "handle": "@jinyaa",
+      "name": "지냐 Jinyaa",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 357000,
+      "subscriber_tier": "mid",
+      "video_count": 487,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCB0iI4S727iXExTQvEVG4UQ",
+      "handle": "@madeinmia",
+      "name": "미아 Mia",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 357000,
+      "subscriber_tier": "mid",
+      "video_count": 948,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCBmYnmnks3mOqRkgmm_frBA",
+      "handle": "@me_wooo",
+      "name": "연우",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 356000,
+      "subscriber_tier": "mid",
+      "video_count": 387,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCLyq1gz11P-IYFmP093JaAw",
+      "handle": "@beautysoom",
+      "name": "뷰티숨BEAUTYSOOM",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 344000,
+      "subscriber_tier": "mid",
+      "video_count": 335,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC_1ETgrcrLjHOP0YJmkWLVQ",
+      "handle": "@sian_youseeany",
+      "name": "최종시안",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 341000,
+      "subscriber_tier": "mid",
+      "video_count": 147,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCjrTg7jI1dyzaFSyie8tIBw",
+      "handle": "@woorini",
+      "name": "우린",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 314000,
+      "subscriber_tier": "mid",
+      "video_count": 935,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC7buwq_navFjilxdYaGO0xw",
+      "handle": "@0zoocarr",
+      "name": "0zoo 영주",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 313000,
+      "subscriber_tier": "mid",
+      "video_count": 559,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCa5K5UpYN-JnHSgOe_tHrEw",
+      "handle": "@yruirm",
+      "name": "윪니",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 309000,
+      "subscriber_tier": "mid",
+      "video_count": 258,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCF8C0n8MNYyvjfry_CkbTjA",
+      "handle": "@soyoung",
+      "name": "So Young",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 308000,
+      "subscriber_tier": "mid",
+      "video_count": 273,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC-mTngidALJqbjUcTyZMZ8Q",
+      "handle": "@heejaebaby",
+      "name": "희재 HEEJAE",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 307000,
+      "subscriber_tier": "mid",
+      "video_count": 237,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC00DJ04oplqj4IUUB5vSwZw",
+      "handle": "@yuria",
+      "name": "유리아YuRia",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 292000,
+      "subscriber_tier": "mid",
+      "video_count": 504,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCHEtpCYvXLoZpKkhDSHNe0A",
+      "handle": "@yang_jooyeon",
+      "name": "YangJooYeon양주연",
+      "country": "KR",
+      "default_language": "ko",
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 287000,
+      "subscriber_tier": "mid",
+      "video_count": 598,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCYsv-IHC-B-DiVMmJuqibcg",
+      "handle": "@jaina0",
+      "name": "제이나 [Jaina]",
+      "country": "KR",
+      "default_language": "ko",
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 284000,
+      "subscriber_tier": "mid",
+      "video_count": 197,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCSx-2fuyotB8WA8KytyhACg",
+      "handle": "@ocean_beauty",
+      "name": "오션 OCEAN",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 282000,
+      "subscriber_tier": "mid",
+      "video_count": 902,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCvOA4iVyEXF_W-YkzAACtrA",
+      "handle": "@happyrimmakeup",
+      "name": "Happyrim혜림쌤",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 275000,
+      "subscriber_tier": "mid",
+      "video_count": 326,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC7ThrNGPoJLuaicyKJ4350w",
+      "handle": "@byulbyulbeauty",
+      "name": "별별뷰티-Byul Byul Beauty / 얼라이브 뷰티",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 267000,
+      "subscriber_tier": "mid",
+      "video_count": 376,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCV3D6OehJPsejAvhz6bDYfA",
+      "handle": "@banchae0",
+      "name": "반채영 chaeyoung",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 265000,
+      "subscriber_tier": "mid",
+      "video_count": 428,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCnnt-d-DDgO4_9tL-icCjMQ",
+      "handle": "@gyuuujin",
+      "name": "규진",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 243000,
+      "subscriber_tier": "mid",
+      "video_count": 300,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCp3FqH9y9X2wqGelph2hk9A",
+      "handle": "@ryeong_ryeong",
+      "name": "령령 Ryeongryeong",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 242000,
+      "subscriber_tier": "mid",
+      "video_count": 309,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCxAdlKnB5u0a7A-iqRa5jYw",
+      "handle": "@danibeauty",
+      "name": "단이 DANI",
+      "country": "KR",
+      "default_language": "ko",
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 231000,
+      "subscriber_tier": "mid",
+      "video_count": 513,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCuFDvhMDRYVWPTh_OIrhbwA",
+      "handle": "@etude_official",
+      "name": "에뛰드 ETUDE",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 231000,
+      "subscriber_tier": "mid",
+      "video_count": 1286,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCmPkZXhVfyLLWyHQM-l_KqA",
+      "handle": "@bbomni",
+      "name": "bbomni 뽐니",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 229000,
+      "subscriber_tier": "mid",
+      "video_count": 977,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCZFKgRGh8IPGAp8IvUO_atg",
+      "handle": "@무쌍이다빈",
+      "name": "무쌍이다빈 DaBeen",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 226000,
+      "subscriber_tier": "mid",
+      "video_count": 308,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCEWqfxUKLIpqyMzebADGUlg",
+      "handle": "@chzzk_ggn",
+      "name": "근가놈",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 225000,
+      "subscriber_tier": "mid",
+      "video_count": 311,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCs0V_K2YJrOvaJbEOT3Lyxg",
+      "handle": "@ggwonnaa",
+      "name": "꿘나",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 221000,
+      "subscriber_tier": "mid",
+      "video_count": 45,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCbUNWAsGISwidbzNjr3BEiQ",
+      "handle": "@all_zero._.k",
+      "name": "AllZero다영",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 219000,
+      "subscriber_tier": "mid",
+      "video_count": 231,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC57_jVZTM427hTqYMXf7utA",
+      "handle": "@you_needn",
+      "name": "You need 윤이든",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 217000,
+      "subscriber_tier": "mid",
+      "video_count": 691,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCdah9R_MdctHWvtpmqEijbA",
+      "handle": "@sunwoo0909",
+      "name": "김선우 SUN WOO",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 216000,
+      "subscriber_tier": "mid",
+      "video_count": 238,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCBlIcpkzSdcmp5G0XS7UsZA",
+      "handle": "@damsbeauty",
+      "name": "담쓰 Dams Beauty",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 211000,
+      "subscriber_tier": "mid",
+      "video_count": 593,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC6ngJ69OTKaFgQobV6EOmcw",
+      "handle": "@_hwoniii",
+      "name": "진훤JINHWON",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 210000,
+      "subscriber_tier": "mid",
+      "video_count": 85,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC8NmKAjUM0K4TZqNgboNEWA",
+      "handle": "@와코",
+      "name": "와코",
+      "country": "KR",
+      "default_language": "ko",
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 206000,
+      "subscriber_tier": "mid",
+      "video_count": 190,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCHa6h8DGLYkAljbskQbIXHw",
+      "handle": "@toxin1204",
+      "name": "톡신TOXIN",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 205000,
+      "subscriber_tier": "mid",
+      "video_count": 650,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCh1l-XohhJxYhUe0zKdJJqg",
+      "handle": "@123golikekorean",
+      "name": "123 GO LIKE! Korean",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 198000,
+      "subscriber_tier": "mid",
+      "video_count": 1870,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC0qVhpqoucq6LEZFLgOYi7g",
+      "handle": "@zinib2979",
+      "name": "지니비Zini B",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 192000,
+      "subscriber_tier": "mid",
+      "video_count": 81,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCL0DDCStyO4NeAFJoN_cO8Q",
+      "handle": "@aerim121",
+      "name": "애림 AERIM",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 191000,
+      "subscriber_tier": "mid",
+      "video_count": 829,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC0W9ygGSuD2K1ePoyCFBj9g",
+      "handle": "@fromhaen",
+      "name": "프롬핸fromhaen",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 191000,
+      "subscriber_tier": "mid",
+      "video_count": 166,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCdYPuAqrobqbQZZFg8U9tuw",
+      "handle": "@hanachoi01",
+      "name": "하나네집 beauty and figure",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 190000,
+      "subscriber_tier": "mid",
+      "video_count": 468,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCiatX-SW7DV9yNrkJujK_tA",
+      "handle": "@somevely",
+      "name": "썸블리",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 185000,
+      "subscriber_tier": "mid",
+      "video_count": 410,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UChK19KYSaw9aCiSwCPhoX4w",
+      "handle": "@kirin_makeup",
+      "name": "기린 KIRIN",
+      "country": "KR",
+      "default_language": "en",
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 180000,
+      "subscriber_tier": "mid",
+      "video_count": 47,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCcfdYcNHsLEGUw0Sf9UlPEA",
+      "handle": "@makeup.korean",
+      "name": "beauty only 아름다움",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 180000,
+      "subscriber_tier": "mid",
+      "video_count": 13,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCi88xf8_ZNb8Ir9CriltGwg",
+      "handle": "@user-moozzi",
+      "name": "무찌",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 180000,
+      "subscriber_tier": "mid",
+      "video_count": 428,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCKyF_OgFAv5ZFSPGzMpoKxA",
+      "handle": "@chaeso_oo",
+      "name": "CHAESO 채소",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 179000,
+      "subscriber_tier": "mid",
+      "video_count": 471,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCdgox0o2bY1zbh37iihMMsQ",
+      "handle": "@문장군",
+      "name": "문장군",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 175000,
+      "subscriber_tier": "mid",
+      "video_count": 185,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCxlZPJcEqN0Z0fSVy8B2Qjg",
+      "handle": "@와뷰티asmr",
+      "name": "와뷰티TV | Wow Beauty ASMR",
+      "country": "KR",
+      "default_language": "ko",
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 172000,
+      "subscriber_tier": "mid",
+      "video_count": 316,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCvU5Kid2zXJacwjEWgJmtPA",
+      "handle": "@leeyullart",
+      "name": "이율아트 Leeyull Art",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 172000,
+      "subscriber_tier": "mid",
+      "video_count": 479,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCnHpEWXz2Ehirkc3wuFfUfw",
+      "handle": "@seookbeauty",
+      "name": "옥뷰티 OK Beauty",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 171000,
+      "subscriber_tier": "mid",
+      "video_count": 104,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC3QqU6REYikKgrx6RjQC48A",
+      "handle": "@2shu",
+      "name": "슈shu",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 171000,
+      "subscriber_tier": "mid",
+      "video_count": 57,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCh_Y1qQaWxgWyTpDe7GGkEw",
+      "handle": "@ssh_makeup",
+      "name": "신성호 Makeup",
+      "country": "KR",
+      "default_language": "ko",
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 169000,
+      "subscriber_tier": "mid",
+      "video_count": 222,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC23emwqOLL9pYZYJzxH9iuA",
+      "handle": "@sunbhin",
+      "name": "선 빈",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 169000,
+      "subscriber_tier": "mid",
+      "video_count": 196,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCy1csRc6iCFkNLM29N7Nk0Q",
+      "handle": "@v.ili.n",
+      "name": "V I N 빈",
+      "country": "KR",
+      "default_language": "ko",
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 168000,
+      "subscriber_tier": "mid",
+      "video_count": 211,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCrK-BInkhcGogiBoG682DEA",
+      "handle": "@ha.na__0",
+      "name": "하나HANA",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 167000,
+      "subscriber_tier": "mid",
+      "video_count": 192,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCxthUNFu-GWQZ0YE9AnIetg",
+      "handle": "@깡나채널",
+      "name": "집 팔아 화장품 사는 깡나",
+      "country": "KR",
+      "default_language": "ko",
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 163000,
+      "subscriber_tier": "mid",
+      "video_count": 368,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCGsBBWPDkROhkMbzkt8QbvQ",
+      "handle": "@bin_aesthetic",
+      "name": "빈에스테틱tv - 피부관리실의 모든 것",
+      "country": "KR",
+      "default_language": "ko",
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 160000,
+      "subscriber_tier": "mid",
+      "video_count": 643,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCAbLNUPDKsjTjdeQjSiskiw",
+      "handle": "@lh12_e3",
+      "name": "현현",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 158000,
+      "subscriber_tier": "mid",
+      "video_count": 176,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCeyNFvgkx5O2i515M1tIOAg",
+      "handle": "@wonhee",
+      "name": "wonhee",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 156000,
+      "subscriber_tier": "mid",
+      "video_count": 114,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCmwJlL5dKvbtVf5As9ojJgg",
+      "handle": "@경이-b8t",
+      "name": "경이",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 154000,
+      "subscriber_tier": "mid",
+      "video_count": 24,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCzpQOktfPxvYeq8OfRtAMYA",
+      "handle": "@2byeolmii",
+      "name": "이별미 Byeolmii",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 153000,
+      "subscriber_tier": "mid",
+      "video_count": 392,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCE5Q4Oy9GqzERUmI3E18s-A",
+      "handle": "@이손eson",
+      "name": "이손 eson",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 153000,
+      "subscriber_tier": "mid",
+      "video_count": 121,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC3EnbFx6mBs2QPJ_BYqQm6g",
+      "handle": "@jiyu_kim",
+      "name": "김지유 JIYU KIM",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 152000,
+      "subscriber_tier": "mid",
+      "video_count": 369,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCJ1p9JvYCdC9JnO6s0Js9lw",
+      "handle": "@hamkyungsik",
+      "name": "함경식 tv",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 147000,
+      "subscriber_tier": "mid",
+      "video_count": 468,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCUKmLlnlIuyci4bPVLvZXjw",
+      "handle": "@고우리gouri",
+      "name": "고우리 Go uri",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 146000,
+      "subscriber_tier": "mid",
+      "video_count": 228,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCfM7HC0wkS_cWVIcgpy2XPA",
+      "handle": "@myerry",
+      "name": "몌 myerry",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 134000,
+      "subscriber_tier": "mid",
+      "video_count": 885,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC7lEEXEzoz7nqCJLN-vFBxA",
+      "handle": "@mykbeautybible",
+      "name": "my k-beauty bible",
+      "country": "MX",
+      "default_language": "es",
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 133000,
+      "subscriber_tier": "mid",
+      "video_count": 196,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCO39RtFb8lh2r1THMeXBsZg",
+      "handle": "@syongsbeauty",
+      "name": "Syong's beauty 숑스뷰티",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 132000,
+      "subscriber_tier": "mid",
+      "video_count": 586,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCGr3FB8OwSwNwk2FEpCGxPQ",
+      "handle": "@jju_unni",
+      "name": "뷰티트레이너 쭈언니",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 130000,
+      "subscriber_tier": "mid",
+      "video_count": 263,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCYfAankzCbhjIV4EsU4Vzdw",
+      "handle": "@1star2star",
+      "name": "한별두별[Hanna]",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 130000,
+      "subscriber_tier": "mid",
+      "video_count": 430,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCy8x6my84qw9NkGw7UvjL0w",
+      "handle": "@derma_king",
+      "name": "피부킹 김동하박사",
+      "country": "KR",
+      "default_language": "ko",
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 128000,
+      "subscriber_tier": "mid",
+      "video_count": 454,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCA1MVioFnBn_bqS2ilm_xxQ",
+      "handle": "@hyunj1nnnn",
+      "name": "HYUNJIN현진",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 127000,
+      "subscriber_tier": "mid",
+      "video_count": 203,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCB44fSGXvnBP6CVp10CenPg",
+      "handle": "@hyovely",
+      "name": "효블리 Hyovely",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 124000,
+      "subscriber_tier": "mid",
+      "video_count": 832,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC4lJJ1BXkiulfBlGfjmeBww",
+      "handle": "@hxnjxxu",
+      "name": "한주",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 114000,
+      "subscriber_tier": "mid",
+      "video_count": 23,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCOqZjAYcLXiHPrxhbakcslQ",
+      "handle": "@chaewoo",
+      "name": "채우 Chaewoo",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 112000,
+      "subscriber_tier": "mid",
+      "video_count": 522,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCR8th9vv4cSnfoY-Gx5hnbA",
+      "handle": "@scarlet.sister",
+      "name": "스칼렛 언니",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 111000,
+      "subscriber_tier": "mid",
+      "video_count": 962,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCpA2ao9DCPwveAqI4ruXQlg",
+      "handle": "@iambetty",
+      "name": "아이 엠 베티 i am betty",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 110000,
+      "subscriber_tier": "mid",
+      "video_count": 147,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UChsVW8C9oiAmxAQPQ9AwX2g",
+      "handle": "@review_mimizzang",
+      "name": "리뷰하는 미미쨩",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 106000,
+      "subscriber_tier": "mid",
+      "video_count": 337,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCV5Q_31yEqkV15Q-AHZWE5A",
+      "handle": "@dailyjenna",
+      "name": "제나 dailyjenna",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 105000,
+      "subscriber_tier": "mid",
+      "video_count": 322,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCE1rlSYNq9ZyxQIUV6y9ZwA",
+      "handle": "@yeow0n",
+      "name": "여원 YEOWON",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 103000,
+      "subscriber_tier": "mid",
+      "video_count": 69,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCEZVKV0mCLuR83k7A9NyINg",
+      "handle": "@cheongma0312",
+      "name": "청담동 마녀",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 103000,
+      "subscriber_tier": "mid",
+      "video_count": 627,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCpSa5CzQedAxXFGfmeeFdIw",
+      "handle": "@vivi.",
+      "name": "박비비 VIVI",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 99800,
+      "subscriber_tier": "micro",
+      "video_count": 137,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCoNit6RKZkhSR9G9ZwVumyg",
+      "handle": "@ch_amii",
+      "name": "오로지,정원",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 99800,
+      "subscriber_tier": "micro",
+      "video_count": 43,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCHUkpUuH7O3U7eIx93tMUwA",
+      "handle": "@dustmothstg",
+      "name": "먼지나방 스토그래피",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 98600,
+      "subscriber_tier": "micro",
+      "video_count": 704,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC3d_8LhMCYir5GUu5_B3J5Q",
+      "handle": "@sooandyou",
+      "name": "수앤유 Sooandyou",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 95900,
+      "subscriber_tier": "micro",
+      "video_count": 254,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCaH0qTQwlqUZ6O54m0s04EA",
+      "handle": "@lucypark",
+      "name": "LUCY PARK 루시파크",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 95000,
+      "subscriber_tier": "micro",
+      "video_count": 240,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCWQdXoa2j1HrZKQQ_jgJQ9A",
+      "handle": "@gold_bubuu",
+      "name": "금쪽부부 GOLDBUBU",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 94800,
+      "subscriber_tier": "micro",
+      "video_count": 96,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCZVpc4jDiGdfmJigYivj6pw",
+      "handle": "@chaerny",
+      "name": "채르니Chaerny",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 92500,
+      "subscriber_tier": "micro",
+      "video_count": 486,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCGbRYhxhgxau3h92-SiEuxA",
+      "handle": "@minomma",
+      "name": "이노마 nomma",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 92300,
+      "subscriber_tier": "micro",
+      "video_count": 339,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCnqiG00_u0xamoh_2eMHX9g",
+      "handle": "@thanxbeauty",
+      "name": "Korean Nail 땡스뷰티",
+      "country": "US",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 91900,
+      "subscriber_tier": "micro",
+      "video_count": 129,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCQTfDMaLT2NO2G43V-ureIQ",
+      "handle": "@raireyoung",
+      "name": "홍지영 raireyoung",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 90400,
+      "subscriber_tier": "micro",
+      "video_count": 104,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCj83T5taUG2jr2h0aPSPA3g",
+      "handle": "@buung",
+      "name": "10시엔 디붕",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 90300,
+      "subscriber_tier": "micro",
+      "video_count": 443,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC6OEwzhsS9Kv6ycYKTBrh6w",
+      "handle": "@yoohwai",
+      "name": "화이화이해",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 87700,
+      "subscriber_tier": "micro",
+      "video_count": 107,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCPMw_1TUgWi7HyQXEqlO8PQ",
+      "handle": "@beryoung0_0",
+      "name": "베령BELL",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 87700,
+      "subscriber_tier": "micro",
+      "video_count": 745,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCHcY90vjkxjLTVBROTT7TBQ",
+      "handle": "@minseo8",
+      "name": "함민서",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 86700,
+      "subscriber_tier": "micro",
+      "video_count": 23,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCROq7_EA4VbsoUsXpxs_Z7g",
+      "handle": "@xx.cy.05",
+      "name": "정채",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 83200,
+      "subscriber_tier": "micro",
+      "video_count": 77,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCrdWdj_pHhJ-YFq6KdlxKQw",
+      "handle": "@juyoung1999",
+      "name": "juyoung",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 82900,
+      "subscriber_tier": "micro",
+      "video_count": 366,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCCuXPHou1JQfRKM40q5tG8w",
+      "handle": "@ahnunnie",
+      "name": "화장품은 과학이다 by 안언니 Ahnunnie",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 82700,
+      "subscriber_tier": "micro",
+      "video_count": 564,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCPo7St861anFa5bTtLSs3vg",
+      "handle": "@인프피리뷰",
+      "name": "인프피리뷰",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 82700,
+      "subscriber_tier": "micro",
+      "video_count": 271,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCkbxbOQkacvOGyDHuCu8_GA",
+      "handle": "@doctor_pureen",
+      "name": "피부해결사 퓨린언니",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 82400,
+      "subscriber_tier": "micro",
+      "video_count": 677,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC1YU436hXVXna8YuqQHCYKQ",
+      "handle": "@zuyoni2",
+      "name": "주연2 ZUYONI",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 77300,
+      "subscriber_tier": "micro",
+      "video_count": 60,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCkLm3gzc0iShLfwJPFEdtPg",
+      "handle": "@kajabeauty",
+      "name": "Kaja Beauty 카자뷰티",
+      "country": "US",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 76200,
+      "subscriber_tier": "micro",
+      "video_count": 793,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC2FGz8diNzNAg_j8n_9eGgw",
+      "handle": "@-gading",
+      "name": "가딩-Gading",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 75100,
+      "subscriber_tier": "micro",
+      "video_count": 411,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCEuv09kP6b6aYY28l3X562A",
+      "handle": "@shw5438",
+      "name": "혜원ひなせ",
+      "country": "JP",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 74500,
+      "subscriber_tier": "micro",
+      "video_count": 24,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCbwLVDVY-_JWwuaHTKDVQEg",
+      "handle": "@홍주hongju",
+      "name": "홍주(hongju)",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 73600,
+      "subscriber_tier": "micro",
+      "video_count": 49,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCSPpnvK9sNpGNiV_6K70Mxg",
+      "handle": "@피부짝꿍주오르",
+      "name": "피부짝꿍 주오르",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 72100,
+      "subscriber_tier": "micro",
+      "video_count": 154,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCnkv5si8_BQl3U8yji31uuQ",
+      "handle": "@nidien9273",
+      "name": "메리",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 71900,
+      "subscriber_tier": "micro",
+      "video_count": 468,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC26YekSZM2TuiK2XDDlpVpA",
+      "handle": "@황예진iamhwangyejin",
+      "name": "황예진 iamhwangyejin",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 71300,
+      "subscriber_tier": "micro",
+      "video_count": 127,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCX6EQB-J3U9Voh4kMmqf8aw",
+      "handle": "@ara_spring",
+      "name": "아라 Ara_spring",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 69400,
+      "subscriber_tier": "micro",
+      "video_count": 378,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC31Pd2I6-D-Vp4QaCg_KF0g",
+      "handle": "@_arinkim",
+      "name": "김아린ARINKIM",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 67500,
+      "subscriber_tier": "micro",
+      "video_count": 59,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCxF_8l_AwTgZYoSPx5u8B9g",
+      "handle": "@i0i88makeup",
+      "name": "양쑤마일yangsmile",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 65100,
+      "subscriber_tier": "micro",
+      "video_count": 159,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCT2aO5ha79Yu-HN6U_PNlCg",
+      "handle": "@ellieveryday_",
+      "name": "엘리 메이크업",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 62200,
+      "subscriber_tier": "micro",
+      "video_count": 437,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCZ75Bt8hZt1AO2zRw36QJHw",
+      "handle": "@summerniight",
+      "name": "여름밤 SummerNight",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 61000,
+      "subscriber_tier": "micro",
+      "video_count": 211,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCmTq9vHMpk-P1NaVr5dK-UA",
+      "handle": "@yejoo_hw",
+      "name": "황예주",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 60900,
+      "subscriber_tier": "micro",
+      "video_count": 169,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC8ztEunx83lflUWENoMdAuA",
+      "handle": "@-makeup5389",
+      "name": "신지훈의 뷰티비 - make up",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 57500,
+      "subscriber_tier": "micro",
+      "video_count": 283,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCJf_CZp5YjzW4GM6G2uZC6w",
+      "handle": "@디오드뷰티",
+      "name": "디오드 뷰티",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 55500,
+      "subscriber_tier": "micro",
+      "video_count": 462,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCT3XCWBiNy-mnS0awYq_trw",
+      "handle": "@jun_dol",
+      "name": "준돌",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 52800,
+      "subscriber_tier": "micro",
+      "video_count": 126,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC5wxFINyjqe-wvs0dcoypgA",
+      "handle": "@watch0217",
+      "name": "윤와치WATCH",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 51900,
+      "subscriber_tier": "micro",
+      "video_count": 285,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCuq6kOmu9TpcN_K6zieWXqg",
+      "handle": "@bia.origin",
+      "name": "비아 bia",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 50100,
+      "subscriber_tier": "micro",
+      "video_count": 182,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCehSxRApNbh93SbHSR9PNmg",
+      "handle": "@hwa_ik_nam",
+      "name": "화장품읽어주는남자 화읽남",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 48800,
+      "subscriber_tier": "micro",
+      "video_count": 1186,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCzzt6bFEBcy-CoZeFvTSq0A",
+      "handle": "@gosoosdailysnap",
+      "name": "고수 평범해도 괜찮아 GOSOO Vlog",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 48000,
+      "subscriber_tier": "micro",
+      "video_count": 825,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC_3zuiuxex4cbO76QAUgDuQ",
+      "handle": "@yerendipity",
+      "name": "예은 yerendipity",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 47700,
+      "subscriber_tier": "micro",
+      "video_count": 182,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCKAwUq0rYJ7JVkwK-XWADnQ",
+      "handle": "@박지윤의피부설명서",
+      "name": "박지윤의 피부 설명서",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 47500,
+      "subscriber_tier": "micro",
+      "video_count": 101,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCYUUPZ6nD_OHpVfViJwRFDA",
+      "handle": "@puffreve",
+      "name": "김퍼프PUFF",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 47200,
+      "subscriber_tier": "micro",
+      "video_count": 501,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCd7icqUv7f8k2E6n4WOCIQg",
+      "handle": "@pibukyurl",
+      "name": "피부결",
+      "country": "KR",
+      "default_language": "ko",
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 46400,
+      "subscriber_tier": "micro",
+      "video_count": 59,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCEqHeuUGkG-q59KDjsZYCrA",
+      "handle": "@hwanglahee_",
+      "name": "황라희 Hwang Lahee",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 45900,
+      "subscriber_tier": "micro",
+      "video_count": 88,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCk57wlh8AjGpWDdOOHIR1Bw",
+      "handle": "@ddobini-beauty",
+      "name": "또비니 DDOBINI",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 43100,
+      "subscriber_tier": "micro",
+      "video_count": 685,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCmEzs9vjFOlDyy6-T9bxR7A",
+      "handle": "@chaeny_1121",
+      "name": "채니 CHAENY",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 42900,
+      "subscriber_tier": "micro",
+      "video_count": 116,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCpK00DAwO59fB53NRtcnZHA",
+      "handle": "@유미김이다",
+      "name": "유미김이다",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 41700,
+      "subscriber_tier": "micro",
+      "video_count": 16,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC5cEQbwa9RGuNrWE063DkwA",
+      "handle": "@minkyeong",
+      "name": "Minkyeong 민경",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 41000,
+      "subscriber_tier": "micro",
+      "video_count": 303,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCNTQXQgt-O3jPeEV7JwhOKA",
+      "handle": "@중년뷰티_결gyul",
+      "name": "중년뷰티 결Gyul",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 40900,
+      "subscriber_tier": "micro",
+      "video_count": 136,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC0_XXCdRAhGXZ99Ty4_kUPw",
+      "handle": "@leah_miso",
+      "name": "리아",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 40400,
+      "subscriber_tier": "micro",
+      "video_count": 424,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCR19aHW_92TAKGLoTH01Z7w",
+      "handle": "@ssongbee",
+      "name": "쏭비SSONGBEE",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 38300,
+      "subscriber_tier": "micro",
+      "video_count": 470,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCQLxfwH8cZ6bD0HNo1M31DA",
+      "handle": "@티원클리닉",
+      "name": "김태영의 피부공식",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 37700,
+      "subscriber_tier": "micro",
+      "video_count": 1022,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCMM4I6JxqssS1f2soG6wwfA",
+      "handle": "@pibudoc",
+      "name": "피부닥",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 37600,
+      "subscriber_tier": "micro",
+      "video_count": 289,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCXGzA4TjbsMQ9JK-SunYL4Q",
+      "handle": "@jiujiu_beauty",
+      "name": "현주",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 34900,
+      "subscriber_tier": "micro",
+      "video_count": 300,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCmw4u8rcpv-GsnAEYyBxqvg",
+      "handle": "@alla_beauty",
+      "name": "알라 ALLA BEAUTY",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 34500,
+      "subscriber_tier": "micro",
+      "video_count": 355,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC8Jbr0L5By5kGL4MVfm2itA",
+      "handle": "@gayoon",
+      "name": "가윤 GAYOON",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 34400,
+      "subscriber_tier": "micro",
+      "video_count": 349,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC_gu0ahtQ9UeCWdUs9gvRJg",
+      "handle": "@chaehee_2",
+      "name": "채히 CHAEHEE",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 34000,
+      "subscriber_tier": "micro",
+      "video_count": 178,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCem0s_50gLmV91r_xMs3b6Q",
+      "handle": "@cecile7504",
+      "name": "쎄씰 Cécile",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 32900,
+      "subscriber_tier": "micro",
+      "video_count": 350,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCED7YKsAzQ2qi2e-cJ7yTEg",
+      "handle": "@메리뷰",
+      "name": "merryview메리뷰",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 32400,
+      "subscriber_tier": "micro",
+      "video_count": 351,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCYkSuKt9oIvWymxjS9QEKJA",
+      "handle": "@user-hayun1004",
+      "name": "하윤",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 31600,
+      "subscriber_tier": "micro",
+      "video_count": 45,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCg6WuMH9TokI5wCyPHnm53g",
+      "handle": "@metaphor_lim",
+      "name": "림LIM",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 31100,
+      "subscriber_tier": "micro",
+      "video_count": 190,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UClrMz_mht7j05ChOHbFwDvg",
+      "handle": "@템미업8",
+      "name": "템미업",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 30900,
+      "subscriber_tier": "micro",
+      "video_count": 34,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCxsYCApltUjVsu2fg9iacVw",
+      "handle": "@maymew",
+      "name": "메이뮤 maymew",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 28700,
+      "subscriber_tier": "micro",
+      "video_count": 290,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCWmuQwMZKKqGK9KM3MSXypw",
+      "handle": "@skincare5602",
+      "name": "온라인스킨케어",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 28200,
+      "subscriber_tier": "micro",
+      "video_count": 202,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCGNXDxVgHKxY8U9Raw-skkw",
+      "handle": "@beauracle",
+      "name": "뷰라클",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 27600,
+      "subscriber_tier": "micro",
+      "video_count": 24,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC4gB7W83yDIkGLCTY-zJt1w",
+      "handle": "@beautreet",
+      "name": "뷰트릿",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 27000,
+      "subscriber_tier": "micro",
+      "video_count": 26,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCg8biZv_Mp9BjEvQp7X6Gng",
+      "handle": "@goguma054",
+      "name": "고마난 gomanan",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 26900,
+      "subscriber_tier": "micro",
+      "video_count": 132,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCxlqra6Gb7BvpOaZaqD-duQ",
+      "handle": "@yooflaiscat",
+      "name": "유플라 yoofla",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 25600,
+      "subscriber_tier": "micro",
+      "video_count": 68,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCJpJ7UJoCMyHstNy9vptd-w",
+      "handle": "@k뷰티아카데미",
+      "name": "K뷰티아카데미",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 23900,
+      "subscriber_tier": "micro",
+      "video_count": 295,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC7RASIHu7B9QtjD81yWOYMQ",
+      "handle": "@아이템홈itemhome",
+      "name": "아이템홈",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 22400,
+      "subscriber_tier": "micro",
+      "video_count": 292,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCT1MM1P7-CTZHO-LZLNbH5A",
+      "handle": "@pear12na",
+      "name": "빛이나*pearlena*",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 22200,
+      "subscriber_tier": "micro",
+      "video_count": 175,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCmWPQ3OI3Lik6WEDEKcKPlw",
+      "handle": "@피부관리v",
+      "name": "피부관리",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 21700,
+      "subscriber_tier": "micro",
+      "video_count": 98,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCui7WmNxSEbk-jjQiUJucmw",
+      "handle": "@m1ngd.c",
+      "name": "밍디씨",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 21600,
+      "subscriber_tier": "micro",
+      "video_count": 200,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCFfefbOS_27JNMPmQK94bYg",
+      "handle": "@maxclinic1",
+      "name": "맥스클리닉MAXCLINIC",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 19000,
+      "subscriber_tier": "micro",
+      "video_count": 384,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCYdYEVp2t0zD5xJu0hKWAgw",
+      "handle": "@from.makeup",
+      "name": "조말랭Jomalraeng",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 19000,
+      "subscriber_tier": "micro",
+      "video_count": 340,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCEQoaBLdg6tZQVMFxVlleIw",
+      "handle": "@jennysbeautytips",
+      "name": "홈케어는 제니언니",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 18800,
+      "subscriber_tier": "micro",
+      "video_count": 150,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCnxaiHJnThETTq9HgreeKWQ",
+      "handle": "@유수yusu",
+      "name": "유수Yusu",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 18500,
+      "subscriber_tier": "micro",
+      "video_count": 216,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCENsDnUXLhmJG4BaArm-AXw",
+      "handle": "@y._6kll",
+      "name": "이윤진",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 18400,
+      "subscriber_tier": "micro",
+      "video_count": 19,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCoU-ovGVg5_wd2qwoX-iJLg",
+      "handle": "@todaybeautytips",
+      "name": "투데이 뷰티팁",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 18000,
+      "subscriber_tier": "micro",
+      "video_count": 545,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCGW59n1GYcL-Mc0zUoSzYpA",
+      "handle": "@메이크업하는은비쌤",
+      "name": "뽀용 은비쌤",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 17700,
+      "subscriber_tier": "micro",
+      "video_count": 256,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCfGaKDI0LLhz2FOVGduTmdQ",
+      "handle": "@ryudayun",
+      "name": "다윤Dayun",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 17400,
+      "subscriber_tier": "micro",
+      "video_count": 269,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCekEudsdDmI7R_0FelfJWaQ",
+      "handle": "@mts전도사",
+      "name": "MTS전도사",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 17300,
+      "subscriber_tier": "micro",
+      "video_count": 1002,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC8cL7l3qRh5INY31qK804Wg",
+      "handle": "@hoochew0kg",
+      "name": "후추hoochew",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 16900,
+      "subscriber_tier": "micro",
+      "video_count": 51,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCvxmyVsVs6P14anEDtGwEVQ",
+      "handle": "@dakyo_makeup",
+      "name": "DAKYO 다교쌤",
+      "country": "KR",
+      "default_language": "ko",
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 16600,
+      "subscriber_tier": "micro",
+      "video_count": 178,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCzUgwZxZsfMAdOX4skTn4bg",
+      "handle": "@258aammm",
+      "name": "연수스 MAKEUP",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 15800,
+      "subscriber_tier": "micro",
+      "video_count": 127,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCxoXxoHMl42XbXjfgy_7LpA",
+      "handle": "@kbeautyrelax",
+      "name": "KBEAUTYRELAX 케이뷰티릴렉스",
+      "country": "US",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 15100,
+      "subscriber_tier": "micro",
+      "video_count": 221,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC3SFrYlHlIbO2wYuw9Ke41g",
+      "handle": "@beautyplayofficial",
+      "name": "BeautyPlay Official",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 15100,
+      "subscriber_tier": "micro",
+      "video_count": 451,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC-zlUojiAg4-gC8IeiuvIKQ",
+      "handle": "@beautydaya",
+      "name": "뷰티다야 BeautyDAYA",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 15000,
+      "subscriber_tier": "micro",
+      "video_count": 514,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC6Z_wsj0tNT40IlEo1n0YNw",
+      "handle": "@leehaskincare",
+      "name": "여드름성지-리하스킨케어",
+      "country": "KR",
+      "default_language": "ko",
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 14000,
+      "subscriber_tier": "micro",
+      "video_count": 716,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCU8fctGh4wlWESYMwlOYWxg",
+      "handle": "@yuharu_cos",
+      "name": "뷰하루beautyharu",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 13400,
+      "subscriber_tier": "micro",
+      "video_count": 512,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCvmrt-GOa-bJt_0aCd8z1Fg",
+      "handle": "@피부참견",
+      "name": "지연쌤의 피부참견",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 13100,
+      "subscriber_tier": "micro",
+      "video_count": 73,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCrDhvuskVPNyJHk7KJjHqUA",
+      "handle": "@studioplus_1",
+      "name": "스튜디오 플러스",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 12800,
+      "subscriber_tier": "micro",
+      "video_count": 415,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC-OZRE6tL3on-o2ZJqRtkRQ",
+      "handle": "@myuracos",
+      "name": "뮤라코 Myurako",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 12800,
+      "subscriber_tier": "micro",
+      "video_count": 63,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC3w7I4X_Zi5XcR-ExbrrcVw",
+      "handle": "@yakuyaku-m4q",
+      "name": "YAKUYAKU 펭귄약사의 화장품,약이야기",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 12500,
+      "subscriber_tier": "micro",
+      "video_count": 54,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCzozom6zNzWkKaqtWN7Qc9A",
+      "handle": "@salim.hankyun",
+      "name": "한켠 ",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 12400,
+      "subscriber_tier": "micro",
+      "video_count": 67,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCzbxkP1MJil_j9ARuTIznuw",
+      "handle": "@skinstein",
+      "name": "피부슈타인",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 12200,
+      "subscriber_tier": "micro",
+      "video_count": 243,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UClj2ZcD4qxPseMw2EZN01kQ",
+      "handle": "@메멘토설은",
+      "name": "메멘토설은",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 12100,
+      "subscriber_tier": "micro",
+      "video_count": 119,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCmYFgly9rKU6VEsNT6J1DMQ",
+      "handle": "@피부에진심써니",
+      "name": "피부에진심인 써니",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 12100,
+      "subscriber_tier": "micro",
+      "video_count": 100,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCEee-1fofuY5CxsqucKcI4w",
+      "handle": "@j.hyun_only",
+      "name": "화장품전공자 재현온리",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 11900,
+      "subscriber_tier": "micro",
+      "video_count": 791,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCVIdaIxzu1V0JBq6zYcHx6g",
+      "handle": "@수얀이",
+      "name": "수얀",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 10700,
+      "subscriber_tier": "micro",
+      "video_count": 10,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCzB4SMiJegcyFlnFvosUVcg",
+      "handle": "@beauty_minister",
+      "name": "뷰티부장관",
+      "country": "KR",
+      "default_language": "ko",
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 10600,
+      "subscriber_tier": "micro",
+      "video_count": 79,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC0L3K8DemFuMpuK8-dnUJwg",
+      "handle": "@morinyeo",
+      "name": "모리녀",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 10500,
+      "subscriber_tier": "micro",
+      "video_count": 73,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC5Z46yBpB76Fgccrors12zA",
+      "handle": "@imdanaly",
+      "name": "Imdanaly",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 10500,
+      "subscriber_tier": "micro",
+      "video_count": 193,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC1ZhBh-iwdIFgnGemfm8ODQ",
+      "handle": "@lizzuasmr",
+      "name": "리쮸 LIZZU ASMR",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 10400,
+      "subscriber_tier": "micro",
+      "video_count": 1117,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCrltET-F44zJZK6z3ADU1Hw",
+      "handle": "@dearbeen",
+      "name": "디얼빈 dearbeen",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 10300,
+      "subscriber_tier": "micro",
+      "video_count": 23,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCk_3DEcRsp-glzUiHwp3smA",
+      "handle": "@bome_mm",
+      "name": "봄이",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 10100,
+      "subscriber_tier": "micro",
+      "video_count": 95,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCAXaV4wglQmn4zUAETD-5lg",
+      "handle": "@의사엄마",
+      "name": "의사엄마",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 0,
+      "subscriber_tier": null,
+      "video_count": 3,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC7uCgU4gqawqrenf4KROhaQ",
+      "handle": "@k뷰티정보",
+      "name": "K뷰티정보",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 0,
+      "subscriber_tier": null,
+      "video_count": 19,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCn3vXWRbOfjfumO5AWTwQYQ",
+      "handle": "@정박사-155",
+      "name": "K뷰티파괴력",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 0,
+      "subscriber_tier": null,
+      "video_count": 2,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCjZm84wg0y2jEwbW6bKrtSw",
+      "handle": "@피부언니효이",
+      "name": "피부언니효이",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 0,
+      "subscriber_tier": null,
+      "video_count": 1,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCR9xwSGALUHSPRqGbkBOMyQ",
+      "handle": "@정직한임씨",
+      "name": "정직한 임씨",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 0,
+      "subscriber_tier": null,
+      "video_count": 1,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCzG_FXpih99TdSz_DQQsOmQ",
+      "handle": "@화장품섞어쓰는리뷰",
+      "name": "화장품 섞어쓰는 리뷰",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 0,
+      "subscriber_tier": null,
+      "video_count": 9,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCQ9U9xVkGcMt5BfO2yfaVGw",
+      "handle": "@mon.111n",
+      "name": "몬",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 0,
+      "subscriber_tier": null,
+      "video_count": 3,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCPqzQAEnCAfxu55yAHnJC8g",
+      "handle": "@글로우진glowjin",
+      "name": "글로우진",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 0,
+      "subscriber_tier": null,
+      "video_count": 10,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UC445FKbXTQupFN0useebikA",
+      "handle": "@생필템발-k5e",
+      "name": "생활마켓",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 0,
+      "subscriber_tier": null,
+      "video_count": 22,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCE5Uj_3vgkGOv9SUlzv195g",
+      "handle": "@koreanbeautytv8374",
+      "name": "korean beauty tv",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 0,
+      "subscriber_tier": null,
+      "video_count": 4,
+      "verified_by_api": true
+    },
+    {
+      "channel_id": "UCv4dNysDNw32AsAZSPzSZOQ",
+      "handle": "@baekkum",
+      "name": "백수가 꿈💸Baekkum💸",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 3300000,
+      "subscriber_tier": "mega",
+      "video_count": 1541,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 2
+    },
+    {
+      "channel_id": "UCg7GWV9e0dOVp8EmOY34VoQ",
+      "handle": "@ryujung_",
+      "name": "류정 ryujung",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 32600,
+      "subscriber_tier": "micro",
+      "video_count": 531,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 5
+    },
+    {
+      "channel_id": "UCcRTcy_GuofiJLPLMlVcGxw",
+      "handle": "@alicefunk",
+      "name": "AliceFunk 앨리스펑크",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 798000,
+      "subscriber_tier": "mid",
+      "video_count": 1401,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 2
+    },
+    {
+      "channel_id": "UCzgVJpL3v9Vv_e8dobg5SQA",
+      "handle": "@l.xn4",
+      "name": "루나",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 58200,
+      "subscriber_tier": "micro",
+      "video_count": 475,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 3
+    },
+    {
+      "channel_id": "UCoFfV8sTi5PWKEdvJP2XzWQ",
+      "handle": "@neulenong",
+      "name": "늘이농",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 373000,
+      "subscriber_tier": "mid",
+      "video_count": 649,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 2
+    },
+    {
+      "channel_id": "UCY-sTVmXRY2JXnVjm9QjYBw",
+      "handle": "@hiiz.beauty",
+      "name": "김히즈 HIIZ",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 12500,
+      "subscriber_tier": "micro",
+      "video_count": 361,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 2
+    },
+    {
+      "channel_id": "UCNqPg9ZEnEMj-qazl_TamDQ",
+      "handle": "@yeribuu",
+      "name": "예리부YERIBU",
+      "country": "KR",
+      "default_language": "ko",
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 13200,
+      "subscriber_tier": "micro",
+      "video_count": 206,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 4
+    },
+    {
+      "channel_id": "UCSe8GEKL2eZmin8uwykQZ7g",
+      "handle": "@catch_speed",
+      "name": "캐치스피드",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 13300,
+      "subscriber_tier": "micro",
+      "video_count": 553,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 5
+    },
+    {
+      "channel_id": "UCt7YgibmRcS-GiHivbMMiUw",
+      "handle": "@goodpharm",
+      "name": "바른약",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 166000,
+      "subscriber_tier": "mid",
+      "video_count": 348,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 2
+    },
+    {
+      "channel_id": "UCiAzDHGJTIjlXZZKj9aErWw",
+      "handle": "@minning",
+      "name": "미닝 Minning",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 61300,
+      "subscriber_tier": "micro",
+      "video_count": 681,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 14
+    },
+    {
+      "channel_id": "UCoA8cBPTWu-9ZWZMr3pcSMg",
+      "handle": "@회춘뷰",
+      "name": "회춘뷰",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 24000,
+      "subscriber_tier": "micro",
+      "video_count": 132,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 3
+    },
+    {
+      "channel_id": "UCquG5reWg1e_Zs6kf9TEzNQ",
+      "handle": "@이츠콩녕",
+      "name": "콩녕",
+      "country": "KR",
+      "default_language": "da",
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 80800,
+      "subscriber_tier": "micro",
+      "video_count": 1720,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 3
+    },
+    {
+      "channel_id": "UCK_SS-VZj0tQORGbdDnel8A",
+      "handle": "@yuchae",
+      "name": "유채 YUCHAE",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 51600,
+      "subscriber_tier": "micro",
+      "video_count": 780,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 3
+    },
+    {
+      "channel_id": "UC26RKCp5GM9XxygDjikvtxw",
+      "handle": "@talaje",
+      "name": "타라재",
+      "country": "KR",
+      "default_language": "ko",
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 34700,
+      "subscriber_tier": "micro",
+      "video_count": 241,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 2
+    },
+    {
+      "channel_id": "UCeUJ8B3krxw8zuDi19AlhaA",
+      "handle": "@studiofromis_9",
+      "name": "스프 : 스튜디오 프로미스나인",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 301000,
+      "subscriber_tier": "mid",
+      "video_count": 219,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 3
+    },
+    {
+      "channel_id": "UCoQx9PRaSk2co5OrtAIKvCg",
+      "handle": "@우엉의숲",
+      "name": "우엉",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 20700,
+      "subscriber_tier": "micro",
+      "video_count": 171,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 2
+    },
+    {
+      "channel_id": "UCucybMZtilvYSg2_f3eAIHg",
+      "handle": "@ganni-ninni",
+      "name": "간니닌니 패밀리",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 786000,
+      "subscriber_tier": "mid",
+      "video_count": 3427,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 8
+    },
+    {
+      "channel_id": "UCvGvf3Lk0Z5reU544g_SzPg",
+      "handle": "@b.t.e",
+      "name": "비트 BTE",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 107000,
+      "subscriber_tier": "mid",
+      "video_count": 622,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 5
+    },
+    {
+      "channel_id": "UC2bN1vE7esxNXhBSYIHzQwg",
+      "handle": "@은하루",
+      "name": "은하루",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 94400,
+      "subscriber_tier": "micro",
+      "video_count": 755,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 3
+    },
+    {
+      "channel_id": "UCmf_Xgbqr0WnQsUOJXWXLLA",
+      "handle": "@fairyy_me",
+      "name": "코덕요정🧚‍♀️",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 113000,
+      "subscriber_tier": "mid",
+      "video_count": 259,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 7
+    },
+    {
+      "channel_id": "UCgRElRhf8PWv95nqExiQXHA",
+      "handle": "@simtohl",
+      "name": "심톨 𝐒𝐈𝐌𝐓𝐎𝐇𝐋",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 248000,
+      "subscriber_tier": "mid",
+      "video_count": 376,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 3
+    },
+    {
+      "channel_id": "UCn_b_mrrhtMGhiLZLCzF7rQ",
+      "handle": "@cutedami",
+      "name": "겸다미",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 112000,
+      "subscriber_tier": "mid",
+      "video_count": 731,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 12
+    },
+    {
+      "channel_id": "UCoCxuPrH7NwbBprRjSD2IKw",
+      "handle": "@mongx2kim",
+      "name": "호기심대장 김몽몽  𝐦𝐨𝐧𝐠𝐦𝐨𝐧𝐠",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 31300,
+      "subscriber_tier": "micro",
+      "video_count": 77,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 11
+    },
+    {
+      "channel_id": "UCZ55qC4VYhtjcadp4wO5Wwg",
+      "handle": "@예콩이네",
+      "name": "예콩이네",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 487000,
+      "subscriber_tier": "mid",
+      "video_count": 1664,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 3
+    },
+    {
+      "channel_id": "UCVRAHN1wuI9pUDyeSAc_I1A",
+      "handle": "@쏘민ssssomin",
+      "name": "쏘민_뷰티에대한모든것",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 12600,
+      "subscriber_tier": "micro",
+      "video_count": 369,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 2
+    },
+    {
+      "channel_id": "UCDTlhztDq-s7OJZBL1Ymf2A",
+      "handle": "@피부는성현철",
+      "name": "피부는 성현철",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 169000,
+      "subscriber_tier": "mid",
+      "video_count": 136,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 3
+    },
+    {
+      "channel_id": "UCniBqAPwwWIQLbYo4uK2RWg",
+      "handle": "@rabbitfam",
+      "name": "토깽이네",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 1190000,
+      "subscriber_tier": "mega",
+      "video_count": 2816,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 3
+    },
+    {
+      "channel_id": "UCgDgtCXMcNZ51QZ16K3M5cQ",
+      "handle": "@yurihada",
+      "name": "유리하다",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 183000,
+      "subscriber_tier": "mid",
+      "video_count": 491,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 3
+    },
+    {
+      "channel_id": "UCeMVG_xsUh7wJEHAic4G4AA",
+      "handle": "@ju_babee",
+      "name": "쥬바비",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 61200,
+      "subscriber_tier": "micro",
+      "video_count": 334,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 4
+    },
+    {
+      "channel_id": "UCTjwlF8Y8hxR85JPUoZv-6A",
+      "handle": "@kimming0_0",
+      "name": "김밍 KIMMING",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 279000,
+      "subscriber_tier": "mid",
+      "video_count": 1342,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 3
+    },
+    {
+      "channel_id": "UCBIp8niZglD_kRBzSTOdxuQ",
+      "handle": "@song_tamin",
+      "name": "송타민 songtamin",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 20800,
+      "subscriber_tier": "micro",
+      "video_count": 606,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 2
+    },
+    {
+      "channel_id": "UCUqh8IuIbuh5fX8R5T33jHA",
+      "handle": "@youmji11",
+      "name": "youmji 염지",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 32400,
+      "subscriber_tier": "micro",
+      "video_count": 1066,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 3
+    },
+    {
+      "channel_id": "UCT0hOMxD29g2B6BrK6QTIag",
+      "handle": "@zingdong09",
+      "name": "현징이",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 18800,
+      "subscriber_tier": "micro",
+      "video_count": 121,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 10
+    },
+    {
+      "channel_id": "UCrqaC5YBq05K1ZnkmSW0j-g",
+      "handle": "@just_sonjoohee",
+      "name": "저스트손주희",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 44000,
+      "subscriber_tier": "micro",
+      "video_count": 33,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 2
+    },
+    {
+      "channel_id": "UCd0JNZPS_7yjqWA3Y6yU-vw",
+      "handle": "@sajjiknam_",
+      "name": "사장찍어주는남자",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 144000,
+      "subscriber_tier": "mid",
+      "video_count": 382,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 2
+    },
+    {
+      "channel_id": "UCceUWPM7SkvOmJ3bs9ZYJCw",
+      "handle": "@urishop_",
+      "name": "유리숍 URISHOP",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 276000,
+      "subscriber_tier": "mid",
+      "video_count": 290,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 2
+    },
+    {
+      "channel_id": "UCKxsnH8o2fymQDymR0-5MNw",
+      "handle": "@ggemomakeup12121",
+      "name": "깨모ggemo",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 121000,
+      "subscriber_tier": "mid",
+      "video_count": 547,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 2
+    },
+    {
+      "channel_id": "UCKycl5tLdiOz6CMoRMpXNjA",
+      "handle": "@hohobeauty1124",
+      "name": "호호뷰티",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 75700,
+      "subscriber_tier": "micro",
+      "video_count": 985,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 2
+    },
+    {
+      "channel_id": "UCaxyM3FMUgdIcP0iPZl0FGg",
+      "handle": "@ahrumong",
+      "name": "아르몽Ahrumongg",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 32000,
+      "subscriber_tier": "micro",
+      "video_count": 855,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 2
+    },
+    {
+      "channel_id": "UCVrEU6vtQ4hU3ANgehCirzw",
+      "handle": "@3분동안_최원준",
+      "name": "3분동안 최원준",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 93400,
+      "subscriber_tier": "micro",
+      "video_count": 249,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 2
+    },
+    {
+      "channel_id": "UCT6W2AUy8If3fN1OoKIFUsg",
+      "handle": "@박경열의피부상담소",
+      "name": "박경열의 피부상담소",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 148000,
+      "subscriber_tier": "mid",
+      "video_count": 73,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 2
+    },
+    {
+      "channel_id": "UCJtAFDmVo5_9dnobfV-rl1g",
+      "handle": "@cjoliveyoung",
+      "name": "올영TV",
+      "country": "KR",
+      "default_language": "ko",
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 102000,
+      "subscriber_tier": "mid",
+      "video_count": 815,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 2
+    },
+    {
+      "channel_id": "UCn7Ifm7sq_IIMivtzZ-LtnA",
+      "handle": "@hobox",
+      "name": "호박스Hobox",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 78400,
+      "subscriber_tier": "micro",
+      "video_count": 499,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 2
+    },
+    {
+      "channel_id": "UCI8SROmdZUHQhgrCJwlbeqQ",
+      "handle": "@쩌쩌의모험",
+      "name": "쩌쩌의모험",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 127000,
+      "subscriber_tier": "mid",
+      "video_count": 411,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 4
+    },
+    {
+      "channel_id": "UCbNMdCWBwjljPxDu8dfeHmg",
+      "handle": "@cherry.p_beauty",
+      "name": "박체리 cherry",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty",
+        "oliveyoung"
+      ],
+      "subscriber_count_approx": 49700,
+      "subscriber_tier": "micro",
+      "video_count": 388,
+      "verified_by_api": true,
+      "discovery_source": "oliveyoung_keyword",
+      "oliveyoung_video_count": 2
+    }
+  ],
+  "pruned_at": "2026-04-20T23:28:23.665Z",
+  "pruned_count": 36,
+  "pruned_months": 6
+}
