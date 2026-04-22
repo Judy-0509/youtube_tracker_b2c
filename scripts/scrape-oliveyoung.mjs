@@ -15,8 +15,18 @@ import path from 'node:path'
 import { pathToFileURL } from 'node:url'
 
 // ── 설정 ─────────────────────────────────────────────────────
-const URL = 'https://www.oliveyoung.co.kr/store/main/getBestList.do'
 const SOURCE = 'oliveyoung'
+const BASE = 'https://www.oliveyoung.co.kr/store/main/getBestList.do'
+const CATEGORY_URLS = [
+  {
+    label: 'skincare',
+    url: `${BASE}?dispCatNo=900000100100001&fltDispCatNo=10000010001&pageIdx=1&rowsPerPage=100`,
+  },
+  {
+    label: 'makeup',
+    url: `${BASE}?dispCatNo=900000100100001&fltDispCatNo=10000010002&pageIdx=1&rowsPerPage=100`,
+  },
+]
 
 const env = {
   url: process.env.NEXT_PUBLIC_SUPABASE_URL,
@@ -138,8 +148,7 @@ function normalize(p) {
 }
 
 // ── 메인 ────────────────────────────────────────────────────
-async function fetchHtml() {
-  console.log('🚀 Chromium 시작...')
+async function fetchHtml(targetUrl) {
   const browser = await chromium.launch({ headless: true })
   const context = await browser.newContext({
     userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
@@ -149,8 +158,8 @@ async function fetchHtml() {
     extraHTTPHeaders: { 'Accept-Language': 'ko-KR,ko;q=0.9,en-US;q=0.8' },
   })
   const page = await context.newPage()
-  console.log(`📥 fetch: ${URL}`)
-  const res = await page.goto(URL, { waitUntil: 'networkidle', timeout: 60000 })
+  console.log(`📥 fetch: ${targetUrl}`)
+  const res = await page.goto(targetUrl, { waitUntil: 'networkidle', timeout: 60000 })
   await page.waitForSelector('[data-ref-goodsno]', { timeout: 15000 }).catch(() => {})
   const html = await page.content()
   const status = res?.status() ?? 0
@@ -234,29 +243,42 @@ async function main() {
     auth: { autoRefreshToken: false, persistSession: false },
   })
 
-  // 1) Fetch
-  const { status, html } = await fetchHtml()
-  console.log(`  HTTP ${status} | size=${html.length} bytes`)
+  console.log('🚀 Chromium 시작...')
 
-  // 2) 챌린지 감지
-  const ch = detectChallenge(html)
-  if (ch.challenged) {
-    console.error(`💥 차단/챌린지 감지: ${ch.reason}`)
-    process.exit(2)
+  // 1) 카테고리별 순차 fetch + 파싱
+  const allProducts = []
+  const seenGoodsNo = new Set()
+
+  for (const cat of CATEGORY_URLS) {
+    console.log(`\n📂 [${cat.label}] 수집 중...`)
+    const { status, html } = await fetchHtml(cat.url)
+    console.log(`  HTTP ${status} | size=${html.length} bytes`)
+
+    const ch = detectChallenge(html)
+    if (ch.challenged) {
+      console.error(`💥 차단/챌린지 감지 (${cat.label}): ${ch.reason}`)
+      process.exit(2)
+    }
+
+    const parsed = parseBestList(html)
+    console.log(`  파싱: ${parsed.length}개`)
+
+    for (const p of parsed) {
+      if (!seenGoodsNo.has(p.goodsNo)) {
+        seenGoodsNo.add(p.goodsNo)
+        allProducts.push(p)
+      }
+    }
   }
 
-  // 3) Parse
-  const products = parseBestList(html)
-  console.log(`📦 파싱: ${products.length}개 제품`)
-
-  // 4) Normalize + filter
-  const enriched = products.map((p) => ({ ...p, ...normalize(p) }))
+  // 2) Normalize + filter
+  const enriched = allProducts.map((p) => ({ ...p, ...normalize(p) }))
   const target = enriched.filter((p) => p.category === 'skincare' || p.category === 'makeup')
-  console.log(`🎯 스킨/메이크업 필터: ${target.length}개`)
+  console.log(`\n🎯 스킨/메이크업 필터: ${target.length}개`)
   console.log(`  · skincare: ${target.filter((p) => p.category === 'skincare').length}`)
   console.log(`  · makeup:   ${target.filter((p) => p.category === 'makeup').length}`)
 
-  // 5) Upsert
+  // 3) Upsert
   console.log(`\n💾 DB 적재...`)
   const stats = await upsertAll(supabase, target.map((t) => ({
     brandName: t.brandName,

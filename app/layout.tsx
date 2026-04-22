@@ -22,7 +22,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"
         />
       </head>
-      <body className="font-sans antialiased text-gray-900">{children}</body>
+      <body className="bg-surface text-ink antialiased">{children}</body>
     </html>
   )
 }

@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>클리키 — K-뷰티 트렌드 디스커버리</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&family=Noto+Serif+KR:wght@400;700&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,700;1,9..144,400&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #FFFDF9;
+  --bg-card: #FFFFFF;
+  --border: #F0EDE8;
+  --border-mid: #E5E0D8;
+  --text-primary: #1A1612;
+  --text-secondary: #6B6560;
+  --text-tertiary: #A09890;
+  --accent: #10B981;
+  --accent-light: #D1FAE5;
+  --accent-mid: #34D399;
+  --accent-dark: #059669;
+  --red: #F87171;
+  --card-radius: 20px;
+  --font-kr: 'Noto Sans KR', sans-serif;
+  --font-display: 'Fraunces', 'Noto Serif KR', serif;
+
+  /* pastel tier colors */
+  --tier-confirmed-bg: #DCFCE7;
+  --tier-confirmed-text: #166534;
+  --tier-buzz-bg: #DBEAFE;
+  --tier-buzz-text: #1D4ED8;
+  --tier-new-bg: #FEF9C3;
+  --tier-new-text: #A16207;
+  --tier-detect-bg: #F3F4F6;
+  --tier-detect-text: #6B7280;
+}
+
+body {
+  font-family: var(--font-kr);
+  background: var(--bg);
+  color: var(--text-primary);
+  line-height: 1.6;
+  min-width: 1200px;
+}
+
+/* ── HEADER ── */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(255,253,249,0.92);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border);
+  padding: 0 40px;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: var(--font-kr);
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--text-primary);
+  letter-spacing: -0.5px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.logo span { color: var(--accent); }
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+nav a {
+  text-decoration: none;
+  color: var(--text-secondary);
+  font-size: 14px;
+  font-weight: 500;
+  padding: 6px 14px;
+  border-radius: 100px;
+  transition: color 0.15s, background 0.15s;
+}
+nav a:hover { color: var(--text-primary); background: var(--border); }
+
+.btn-trial {
+  background: var(--accent);
+  color: #fff;
+  font-family: var(--font-kr);
+  font-weight: 600;
+  font-size: 14px;
+  padding: 9px 22px;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.1s;
+}
+.btn-trial:hover { background: var(--accent-dark); transform: translateY(-1px); }
+
+/* ── HERO ── */
+.hero {
+  background: linear-gradient(135deg, #D1FAE5 0%, #E0F2FE 50%, #FCE7F3 100%);
+  padding: 90px 40px 80px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Soft decorative blobs */
+.hero-blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(60px);
+  pointer-events: none;
+  opacity: 0.5;
+}
+.hero-blob-1 {
+  width: 400px; height: 400px;
+  background: rgba(16,185,129,0.25);
+  top: -100px; left: -80px;
+}
+.hero-blob-2 {
+  width: 300px; height: 300px;
+  background: rgba(186,230,253,0.6);
+  top: -60px; right: 100px;
+}
+.hero-blob-3 {
+  width: 250px; height: 250px;
+  background: rgba(253,164,175,0.4);
+  bottom: -60px; right: -40px;
+}
+
+.hero-inner {
+  position: relative;
+  z-index: 1;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.hero-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255,255,255,0.75);
+  border: 1px solid rgba(255,255,255,0.9);
+  color: var(--accent-dark);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  padding: 5px 16px;
+  border-radius: 100px;
+  margin-bottom: 28px;
+}
+
+.hero-title {
+  font-family: var(--font-display);
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -1px;
+  color: var(--text-primary);
+  margin-bottom: 20px;
+}
+.hero-title em {
+  font-style: italic;
+  font-weight: 400;
+  color: var(--accent-dark);
+}
+
+.hero-desc {
+  font-size: 17px;
+  color: #4B7A6A;
+  line-height: 1.75;
+  margin-bottom: 36px;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 52px;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: #fff;
+  font-family: var(--font-kr);
+  font-weight: 600;
+  font-size: 15px;
+  padding: 13px 30px;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.1s, box-shadow 0.15s;
+}
+.btn-primary:hover { background: var(--accent-dark); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(16,185,129,0.3); }
+
+.btn-secondary {
+  background: rgba(255,255,255,0.8);
+  color: var(--text-secondary);
+  font-family: var(--font-kr);
+  font-weight: 500;
+  font-size: 15px;
+  padding: 13px 26px;
+  border: 1px solid rgba(255,255,255,0.9);
+  border-radius: 100px;
+  cursor: pointer;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  transition: background 0.15s, color 0.15s, transform 0.1s;
+}
+.btn-secondary:hover { background: #fff; color: var(--text-primary); transform: translateY(-2px); }
+
+/* Hero stats pills */
+.hero-stats {
+  display: inline-flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.stat-pill {
+  background: rgba(255,255,255,0.82);
+  border: 1px solid rgba(255,255,255,0.95);
+  border-radius: 100px;
+  padding: 10px 24px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+.stat-value {
+  font-family: var(--font-kr);
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1;
+}
+.stat-label {
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+/* ── TRENDING SECTION ── */
+.section-trending {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 64px 40px 80px;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 32px;
+}
+.section-title {
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: var(--text-primary);
+}
+.section-title small {
+  display: block;
+  font-family: var(--font-kr);
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--text-tertiary);
+  margin-top: 4px;
+  letter-spacing: 0;
+}
+.section-date {
+  font-size: 12px;
+  color: var(--text-tertiary);
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+/* ── PRODUCT CARD ── */
+.product-card {
+  background: var(--bg-card);
+  border-radius: var(--card-radius);
+  padding: 22px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  opacity: 0;
+  transform: translateY(24px);
+  border: 1px solid rgba(0,0,0,0.04);
+}
+.product-card.visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.55s ease, transform 0.55s ease, box-shadow 0.25s ease;
+}
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 36px rgba(0,0,0,0.10);
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 14px;
+}
+
+.tier-badge {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 100px;
+  white-space: nowrap;
+}
+.tier-confirmed {
+  background: var(--tier-confirmed-bg);
+  color: var(--tier-confirmed-text);
+  animation: badge-pulse 2.2s ease-in-out infinite;
+}
+.tier-buzz_only { background: var(--tier-buzz-bg); color: var(--tier-buzz-text); }
+.tier-newly_discovered { background: var(--tier-new-bg); color: var(--tier-new-text); }
+.tier-detecting { background: var(--tier-detect-bg); color: var(--tier-detect-text); }
+
+@keyframes badge-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(16,185,129,0); }
+  50% { box-shadow: 0 0 0 4px rgba(16,185,129,0.15); }
+}
+
+.card-score-wrap { text-align: right; }
+.card-score {
+  font-family: var(--font-display);
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1;
+}
+.card-score-label { font-size: 10px; color: var(--text-tertiary); margin-top: 2px; }
+
+.card-name {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+  line-height: 1.4;
+}
+.card-brand { font-size: 12px; color: var(--text-tertiary); margin-bottom: 16px; }
+
+.card-rank-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+.rank-chip {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  background: var(--bg);
+  border: 1px solid var(--border-mid);
+  padding: 4px 12px;
+  border-radius: 100px;
+}
+.rank-delta {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 3px 9px;
+  border-radius: 100px;
+}
+.rank-delta.up { background: var(--tier-confirmed-bg); color: var(--tier-confirmed-text); }
+.rank-delta.down { background: #FEE2E2; color: #B91C1C; }
+
+.card-signals {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+.signal-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.signal-label { font-size: 11px; color: var(--text-tertiary); min-width: 72px; }
+.dots { letter-spacing: 2px; font-size: 13px; }
+.dot-on { color: var(--accent); }
+.dot-off { color: var(--border-mid); }
+
+.card-bar-section {
+  border-top: 1px solid var(--border);
+  padding-top: 14px;
+}
+.bar-label-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 7px;
+}
+.bar-label { font-size: 11px; color: var(--text-tertiary); }
+.bar-value { font-size: 11px; color: var(--accent-dark); font-weight: 700; }
+.bar-track {
+  height: 7px;
+  background: var(--accent-light);
+  border-radius: 100px;
+  overflow: hidden;
+}
+.bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent) 0%, var(--accent-mid) 100%);
+  border-radius: 100px;
+  width: 0;
+  transition: width 1.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ── FOOTER ── */
+footer {
+  background: #FFF8F2;
+  border-top: 1px solid var(--border);
+  padding: 32px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-logo { font-weight: 700; font-size: 16px; color: var(--text-primary); }
+.footer-logo span { color: var(--accent); }
+.footer-copy { font-size: 12px; color: var(--text-tertiary); }
+.footer-links { display: flex; gap: 20px; }
+.footer-links a {
+  font-size: 12px; color: var(--text-tertiary); text-decoration: none; transition: color 0.15s;
+}
+.footer-links a:hover { color: var(--text-secondary); }
+
+@media (prefers-reduced-motion: reduce) {
+  .bar-fill { transition: none; }
+  .product-card { opacity: 1; transform: none; }
+  .tier-confirmed { animation: none; }
+}
+
+@media (max-width: 900px) {
+  body { min-width: 0; }
+  .cards-grid { grid-template-columns: 1fr 1fr; }
+}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="logo">클리키 <span>✦</span></div>
+  <nav>
+    <a href="#">트렌딩</a>
+    <a href="#">제품</a>
+    <a href="#">키워드</a>
+    <a href="#">크리에이터</a>
+  </nav>
+  <button class="btn-trial">무료 체험 →</button>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-blob hero-blob-1"></div>
+  <div class="hero-blob hero-blob-2"></div>
+  <div class="hero-blob hero-blob-3"></div>
+  <div class="hero-inner">
+    <div class="hero-eyebrow">✦ K-뷰티 트렌드 인텔리전스</div>
+    <h1 class="hero-title">
+      지금 <em>뜨는</em> K-뷰티,<br>
+      매일 아침 먼저 알아요
+    </h1>
+    <p class="hero-desc">
+      올리브영 랭킹 + YouTube 버즈 + 네이버 검색량<br>
+      3축 신호로 오늘의 트렌딩 제품을 발굴합니다
+    </p>
+    <div class="hero-actions">
+      <button class="btn-primary">무료로 시작하기</button>
+      <button class="btn-secondary">데모 보기</button>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-pill">
+        <span class="stat-value"><span id="cnt-channels">0</span>개</span>
+        <span class="stat-label">트래킹 채널</span>
+      </div>
+      <div class="stat-pill">
+        <span class="stat-value"><span id="cnt-products">0</span>개</span>
+        <span class="stat-label">트렌딩 제품</span>
+      </div>
+      <div class="stat-pill">
+        <span class="stat-value">매일</span>
+        <span class="stat-label">업데이트</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRENDING SECTION -->
+<section class="section-trending">
+  <div class="section-header">
+    <div class="section-title">
+      오늘의 트렌딩
+      <small>올리브영 × YouTube × 네이버 통합 점수 기준</small>
+    </div>
+    <div class="section-date">2026.04.22</div>
+  </div>
+
+  <div class="cards-grid">
+
+    <!-- Card 1 -->
+    <div class="product-card">
+      <div class="card-top">
+        <span class="tier-badge tier-confirmed">🔥 확인된 트렌드</span>
+        <div class="card-score-wrap">
+          <div class="card-score">1.80</div>
+          <div class="card-score-label">트렌드 점수</div>
+        </div>
+      </div>
+      <div class="card-name">무지개맨션 오브제 스테인 틴트</div>
+      <div class="card-brand">무지개맨션</div>
+      <div class="card-rank-row">
+        <span class="rank-chip">올리브영 18위</span>
+        <span class="rank-delta up">↑12</span>
+      </div>
+      <div class="card-signals">
+        <div class="signal-row">
+          <span class="signal-label">YouTube 버즈</span>
+          <span class="dots"><span class="dot-on">●●●●</span><span class="dot-off">○</span></span>
+        </div>
+        <div class="signal-row">
+          <span class="signal-label">네이버 검색</span>
+          <span class="dots"><span class="dot-on">●●●●●</span></span>
+        </div>
+      </div>
+      <div class="card-bar-section">
+        <div class="bar-label-row">
+          <span class="bar-label">트렌드 강도</span>
+          <span class="bar-value">90%</span>
+        </div>
+        <div class="bar-track"><div class="bar-fill" data-target="90"></div></div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="product-card">
+      <div class="card-top">
+        <span class="tier-badge tier-buzz_only">📹 유튜브 버즈</span>
+        <div class="card-score-wrap">
+          <div class="card-score">1.15</div>
+          <div class="card-score-label">트렌드 점수</div>
+        </div>
+      </div>
+      <div class="card-name">메디힐 랩핑 세럼 마스크</div>
+      <div class="card-brand">메디힐</div>
+      <div class="card-rank-row">
+        <span class="rank-chip">올리브영 11위</span>
+        <span class="rank-delta up">↑8</span>
+      </div>
+      <div class="card-signals">
+        <div class="signal-row">
+          <span class="signal-label">YouTube 버즈</span>
+          <span class="dots"><span class="dot-on">●●●</span><span class="dot-off">○○</span></span>
+        </div>
+        <div class="signal-row">
+          <span class="signal-label">네이버 검색</span>
+          <span class="dots"><span class="dot-on">●●●</span><span class="dot-off">○○</span></span>
+        </div>
+      </div>
+      <div class="card-bar-section">
+        <div class="bar-label-row">
+          <span class="bar-label">트렌드 강도</span>
+          <span class="bar-value">57%</span>
+        </div>
+        <div class="bar-track"><div class="bar-fill" data-target="57"></div></div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="product-card">
+      <div class="card-top">
+        <span class="tier-badge tier-confirmed">🔥 확인된 트렌드</span>
+        <div class="card-score-wrap">
+          <div class="card-score">1.08</div>
+          <div class="card-score-label">트렌드 점수</div>
+        </div>
+      </div>
+      <div class="card-name">에스트라 아토베리어 360 크림</div>
+      <div class="card-brand">에스트라</div>
+      <div class="card-rank-row">
+        <span class="rank-chip">올리브영 3위</span>
+        <span class="rank-delta up">↑5</span>
+      </div>
+      <div class="card-signals">
+        <div class="signal-row">
+          <span class="signal-label">YouTube 버즈</span>
+          <span class="dots"><span class="dot-on">●●●●</span><span class="dot-off">○</span></span>
+        </div>
+        <div class="signal-row">
+          <span class="signal-label">네이버 검색</span>
+          <span class="dots"><span class="dot-on">●●●●</span><span class="dot-off">○</span></span>
+        </div>
+      </div>
+      <div class="card-bar-section">
+        <div class="bar-label-row">
+          <span class="bar-label">트렌드 강도</span>
+          <span class="bar-value">54%</span>
+        </div>
+        <div class="bar-track"><div class="bar-fill" data-target="54"></div></div>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="product-card">
+      <div class="card-top">
+        <span class="tier-badge tier-newly_discovered">✨ 신규 발굴</span>
+        <div class="card-score-wrap">
+          <div class="card-score">0.92</div>
+          <div class="card-score-label">트렌드 점수</div>
+        </div>
+      </div>
+      <div class="card-name">마녀공장 퓨어 소이빈 클렌징오일</div>
+      <div class="card-brand">마녀공장</div>
+      <div class="card-rank-row">
+        <span class="rank-chip">올리브영 48위</span>
+        <span class="rank-delta up">↑22</span>
+      </div>
+      <div class="card-signals">
+        <div class="signal-row">
+          <span class="signal-label">YouTube 버즈</span>
+          <span class="dots"><span class="dot-on">●</span><span class="dot-off">○○○○</span></span>
+        </div>
+        <div class="signal-row">
+          <span class="signal-label">네이버 검색</span>
+          <span class="dots"><span class="dot-on">●●●●●</span></span>
+        </div>
+      </div>
+      <div class="card-bar-section">
+        <div class="bar-label-row">
+          <span class="bar-label">트렌드 강도</span>
+          <span class="bar-value">46%</span>
+        </div>
+        <div class="bar-track"><div class="bar-fill" data-target="46"></div></div>
+      </div>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="product-card">
+      <div class="card-top">
+        <span class="tier-badge tier-detecting">📡 모니터링</span>
+        <div class="card-score-wrap">
+          <div class="card-score">0.45</div>
+          <div class="card-score-label">트렌드 점수</div>
+        </div>
+      </div>
+      <div class="card-name">클리오 킬커버 파운웨어 쿠션</div>
+      <div class="card-brand">클리오</div>
+      <div class="card-rank-row">
+        <span class="rank-chip">올리브영 7위</span>
+        <span class="rank-delta down">↓2</span>
+      </div>
+      <div class="card-signals">
+        <div class="signal-row">
+          <span class="signal-label">YouTube 버즈</span>
+          <span class="dots"><span class="dot-on">●●</span><span class="dot-off">○○○</span></span>
+        </div>
+        <div class="signal-row">
+          <span class="signal-label">네이버 검색</span>
+          <span class="dots"><span class="dot-on">●●</span><span class="dot-off">○○○</span></span>
+        </div>
+      </div>
+      <div class="card-bar-section">
+        <div class="bar-label-row">
+          <span class="bar-label">트렌드 강도</span>
+          <span class="bar-value">22%</span>
+        </div>
+        <div class="bar-track"><div class="bar-fill" data-target="22"></div></div>
+      </div>
+    </div>
+
+    <!-- Card 6 -->
+    <div class="product-card">
+      <div class="card-top">
+        <span class="tier-badge tier-buzz_only">📹 유튜브 버즈</span>
+        <div class="card-score-wrap">
+          <div class="card-score">0.88</div>
+          <div class="card-score-label">트렌드 점수</div>
+        </div>
+      </div>
+      <div class="card-name">라운드랩 독도 토너</div>
+      <div class="card-brand">라운드랩</div>
+      <div class="card-rank-row">
+        <span class="rank-chip">올리브영 25위</span>
+        <span class="rank-delta up">↑6</span>
+      </div>
+      <div class="card-signals">
+        <div class="signal-row">
+          <span class="signal-label">YouTube 버즈</span>
+          <span class="dots"><span class="dot-on">●●●</span><span class="dot-off">○○</span></span>
+        </div>
+        <div class="signal-row">
+          <span class="signal-label">네이버 검색</span>
+          <span class="dots"><span class="dot-on">●●●</span><span class="dot-off">○○</span></span>
+        </div>
+      </div>
+      <div class="card-bar-section">
+        <div class="bar-label-row">
+          <span class="bar-label">트렌드 강도</span>
+          <span class="bar-value">44%</span>
+        </div>
+        <div class="bar-track"><div class="bar-fill" data-target="44"></div></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">클리키 <span>✦</span></div>
+  <div class="footer-copy">© 2026 Clickyy. K-뷰티 트렌드 인텔리전스.</div>
+  <div class="footer-links">
+    <a href="#">서비스 소개</a>
+    <a href="#">이용약관</a>
+    <a href="#">개인정보처리방침</a>
+    <a href="#">문의</a>
+  </div>
+</footer>
+
+<script>
+function countUp(el, target, duration) {
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    el.textContent = target; return;
+  }
+  let startTime = null;
+  function step(ts) {
+    if (!startTime) startTime = ts;
+    const progress = Math.min((ts - startTime) / duration, 1);
+    const ease = 1 - Math.pow(1 - progress, 3);
+    el.textContent = Math.round(ease * target);
+    if (progress < 1) requestAnimationFrame(step);
+  }
+  requestAnimationFrame(step);
+}
+
+window.addEventListener('load', () => {
+  countUp(document.getElementById('cnt-channels'), 313, 1800);
+  countUp(document.getElementById('cnt-products'), 86, 1400);
+});
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      const card = entry.target;
+      const cards = document.querySelectorAll('.product-card');
+      const delay = Array.from(cards).indexOf(card) * 90;
+      setTimeout(() => {
+        card.classList.add('visible');
+        const fill = card.querySelector('.bar-fill');
+        if (fill) fill.style.width = fill.dataset.target + '%';
+      }, delay);
+      observer.unobserve(card);
+    }
+  });
+}, { threshold: 0.1 });
+
+document.querySelectorAll('.product-card').forEach(card => observer.observe(card));
+</script>
+</body>
+</html>

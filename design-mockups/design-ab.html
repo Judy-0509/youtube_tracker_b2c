@@ -1,0 +1,1079 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>클리키 — K-뷰티 트렌드 디스커버리</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  /* Light (A) tokens */
+  --bg-light: #FAFAFA;
+  --bg-white: #FFFFFF;
+  --border-light: #E5E7EB;
+  --border-mid: #D1D5DB;
+  --text-primary: #111827;
+  --text-secondary: #6B7280;
+  --text-tertiary: #9CA3AF;
+
+  /* Dark (B) tokens */
+  --bg-dark: #0F172A;
+  --bg-dark-2: #1E293B;
+  --glass: rgba(255,255,255,0.07);
+  --glass-hover: rgba(255,255,255,0.12);
+  --border-dark: rgba(255,255,255,0.10);
+  --border-dark-strong: rgba(255,255,255,0.20);
+  --text-dark-primary: #F1F5F9;
+  --text-dark-secondary: #94A3B8;
+  --text-dark-tertiary: #64748B;
+
+  /* Shared */
+  --accent: #10B981;
+  --accent-light: #D1FAE5;
+  --accent-mid: #34D399;
+  --accent-bright: #6EE7B7;
+  --accent-dark: #059669;
+  --red: #EF4444;
+  --glow: 0 0 20px rgba(16,185,129,0.35);
+  --glow-sm: 0 0 10px rgba(16,185,129,0.25);
+  --card-radius: 14px;
+  --font-kr: 'Noto Sans KR', sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+}
+
+body {
+  font-family: var(--font-kr);
+  background: var(--bg-light);
+  color: var(--text-primary);
+  line-height: 1.6;
+  min-width: 1200px;
+}
+
+/* ══════════════════════════════════
+   HEADER — Light (A style)
+══════════════════════════════════ */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--bg-white);
+  border-bottom: 1px solid var(--border-light);
+  padding: 0 40px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--text-primary);
+  letter-spacing: -0.5px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.logo .logo-star { color: var(--accent); }
+
+nav { display: flex; align-items: center; gap: 4px; }
+nav a {
+  text-decoration: none;
+  color: var(--text-secondary);
+  font-size: 14px;
+  font-weight: 500;
+  padding: 6px 14px;
+  border-radius: 8px;
+  transition: color 0.15s, background 0.15s;
+}
+nav a:hover { color: var(--text-primary); background: #F3F4F6; }
+
+.btn-trial {
+  background: var(--accent);
+  color: #fff;
+  font-family: var(--font-kr);
+  font-weight: 600;
+  font-size: 14px;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.1s;
+}
+.btn-trial:hover { background: var(--accent-dark); transform: translateY(-1px); }
+
+/* ══════════════════════════════════
+   HERO — Dark (B style)
+══════════════════════════════════ */
+.hero {
+  background: var(--bg-dark);
+  position: relative;
+  overflow: hidden;
+  padding: 90px 40px 80px;
+}
+
+.hero-glow-main {
+  position: absolute;
+  top: -120px; left: 50%;
+  transform: translateX(-50%);
+  width: 900px; height: 600px;
+  background: radial-gradient(ellipse at center, rgba(16,185,129,0.16) 0%, transparent 68%);
+  pointer-events: none;
+}
+.hero-glow-left {
+  position: absolute;
+  bottom: -40px; left: 10%;
+  width: 260px; height: 260px;
+  background: radial-gradient(ellipse, rgba(16,185,129,0.08) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.hero-inner {
+  position: relative;
+  z-index: 1;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 440px;
+  gap: 60px;
+  align-items: center;
+}
+
+.hero-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(16,185,129,0.12);
+  border: 1px solid rgba(16,185,129,0.28);
+  color: var(--accent-bright);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  padding: 5px 14px;
+  border-radius: 20px;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+}
+.eyebrow-dot {
+  width: 6px; height: 6px;
+  background: var(--accent);
+  border-radius: 50%;
+  box-shadow: var(--glow-sm);
+  animation: blink 2s ease-in-out infinite;
+}
+@keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: 0.2; } }
+
+.hero-title {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -1.2px;
+  color: var(--text-dark-primary);
+  margin-bottom: 18px;
+}
+.hero-title em {
+  font-style: normal;
+  color: var(--accent);
+  text-shadow: var(--glow);
+}
+
+.hero-desc {
+  font-size: 16px;
+  color: var(--text-dark-secondary);
+  line-height: 1.75;
+  margin-bottom: 36px;
+}
+
+.hero-actions { display: flex; gap: 12px; margin-bottom: 52px; }
+
+.btn-primary {
+  background: var(--accent);
+  color: #fff;
+  font-family: var(--font-kr);
+  font-weight: 600;
+  font-size: 15px;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: var(--glow-sm);
+  transition: box-shadow 0.2s, transform 0.1s;
+}
+.btn-primary:hover { box-shadow: var(--glow); transform: translateY(-2px); }
+
+.btn-ghost {
+  background: var(--glass);
+  color: var(--text-dark-secondary);
+  font-family: var(--font-kr);
+  font-weight: 500;
+  font-size: 15px;
+  padding: 12px 24px;
+  border: 1px solid var(--border-dark);
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  transition: border-color 0.2s, color 0.2s, transform 0.1s;
+}
+.btn-ghost:hover { border-color: var(--border-dark-strong); color: var(--text-dark-primary); transform: translateY(-2px); }
+
+.hero-stats {
+  display: flex;
+  gap: 0;
+  background: var(--glass);
+  border: 1px solid var(--border-dark);
+  border-radius: 12px;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  display: inline-flex;
+}
+.stat-item {
+  padding: 14px 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}
+.stat-item + .stat-item { border-left: 1px solid var(--border-dark); }
+.stat-value {
+  font-family: var(--font-mono);
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--accent);
+  text-shadow: var(--glow-sm);
+  line-height: 1;
+}
+.stat-label {
+  font-size: 11px;
+  color: var(--text-dark-tertiary);
+}
+
+/* Hero right: mini preview (dark glass) */
+.hero-preview {
+  background: var(--glass);
+  border: 1px solid var(--border-dark);
+  border-radius: 18px;
+  padding: 24px;
+  -webkit-backdrop-filter: blur(24px);
+  backdrop-filter: blur(24px);
+}
+.preview-label {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: var(--text-dark-tertiary);
+  margin-bottom: 14px;
+}
+.preview-top-card {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(16,185,129,0.25);
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 12px;
+}
+.preview-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+.preview-badge {
+  font-size: 10px;
+  font-weight: 600;
+  padding: 3px 9px;
+  border-radius: 6px;
+  background: rgba(16,185,129,0.15);
+  color: var(--accent-bright);
+  border: 1px solid rgba(16,185,129,0.25);
+}
+.preview-score {
+  font-family: var(--font-mono);
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--accent);
+  text-shadow: var(--glow-sm);
+}
+.preview-score small { font-size: 10px; color: var(--text-dark-tertiary); font-weight: 400; }
+.preview-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-dark-primary);
+  margin-bottom: 3px;
+  line-height: 1.4;
+}
+.preview-brand {
+  font-size: 11px;
+  color: var(--text-dark-tertiary);
+  margin-bottom: 12px;
+}
+.preview-bar-track {
+  height: 4px;
+  background: rgba(16,185,129,0.12);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.preview-bar-fill {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 2px;
+  width: 0;
+  box-shadow: 0 0 6px rgba(16,185,129,0.5);
+  transition: width 1.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.preview-mini {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border: 1px solid var(--border-dark);
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+.preview-mini:last-child { margin-bottom: 0; }
+.preview-mini-rank {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: var(--text-dark-tertiary);
+  min-width: 18px;
+}
+.preview-mini-name {
+  font-size: 12px;
+  color: var(--text-dark-secondary);
+  flex: 1;
+  line-height: 1.3;
+}
+.preview-mini-score {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+/* ══════════════════════════════════
+   TRENDING SECTION — Mixed
+══════════════════════════════════ */
+/* Dark band for TOP 3 */
+.section-dark {
+  background: var(--bg-dark);
+  padding: 60px 40px 48px;
+  border-bottom: 1px solid rgba(16,185,129,0.1);
+}
+/* Light band for remaining */
+.section-light {
+  background: var(--bg-light);
+  padding: 40px 40px 80px;
+}
+
+.section-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 28px;
+}
+.section-title-dark {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+  color: var(--text-dark-primary);
+}
+.section-title-dark small {
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--text-dark-tertiary);
+  margin-top: 3px;
+  letter-spacing: 0;
+}
+.section-title-light {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+  color: var(--text-primary);
+}
+.section-title-light small {
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--text-tertiary);
+  margin-top: 3px;
+}
+.section-date-dark {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text-dark-tertiary);
+}
+.section-date-light {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text-tertiary);
+}
+
+.cards-grid-dark {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+.cards-grid-light {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+/* ── Dark glass cards (TOP 3) ── */
+.card-dark {
+  background: var(--glass);
+  border: 1px solid var(--border-dark);
+  border-radius: var(--card-radius);
+  padding: 22px;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+  opacity: 0;
+  transform: translateY(20px);
+}
+.card-dark.visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.5s ease, transform 0.5s ease, border-color 0.2s ease;
+}
+.card-dark:hover {
+  transform: translateY(-4px);
+  border-color: var(--border-dark-strong);
+  background: var(--glass-hover);
+}
+
+/* ── Light cards (remaining 3) ── */
+.card-light {
+  background: var(--bg-white);
+  border: 1px solid var(--border-light);
+  border-radius: var(--card-radius);
+  padding: 20px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  opacity: 0;
+  transform: translateY(20px);
+}
+.card-light.visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.5s ease, transform 0.5s ease, box-shadow 0.2s ease;
+}
+.card-light:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+
+/* ── Shared card internals ── */
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+
+/* Tier badges — dark context */
+.tier-badge-dark {
+  font-size: 10px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+.tier-confirmed-dark {
+  background: rgba(16,185,129,0.15);
+  color: var(--accent-bright);
+  border: 1px solid rgba(16,185,129,0.28);
+  animation: badge-glow 2s ease-in-out infinite;
+}
+.tier-buzz-dark {
+  background: rgba(59,130,246,0.15);
+  color: #93C5FD;
+  border: 1px solid rgba(59,130,246,0.25);
+}
+.tier-new-dark {
+  background: rgba(245,158,11,0.15);
+  color: #FCD34D;
+  border: 1px solid rgba(245,158,11,0.22);
+}
+
+@keyframes badge-glow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(16,185,129,0); }
+  50% { box-shadow: 0 0 8px rgba(16,185,129,0.4); }
+}
+
+/* Tier badges — light context */
+.tier-badge-light {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+.tier-confirmed-light {
+  background: #D1FAE5;
+  color: #065F46;
+  animation: badge-pulse 2s ease-in-out infinite;
+}
+.tier-buzz-light { background: #DBEAFE; color: #1E40AF; }
+.tier-new-light { background: #FEF3C7; color: #92400E; }
+.tier-detect-light { background: #F3F4F6; color: #6B7280; }
+
+@keyframes badge-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(16,185,129,0); }
+  50% { box-shadow: 0 0 0 4px rgba(16,185,129,0.18); }
+}
+
+/* Score — dark */
+.card-score-dark {
+  font-family: var(--font-mono);
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--accent);
+  text-shadow: var(--glow-sm);
+  line-height: 1;
+  text-align: right;
+}
+.card-score-label-dark {
+  font-size: 9px;
+  color: var(--text-dark-tertiary);
+  text-align: right;
+  margin-top: 2px;
+  letter-spacing: 0.3px;
+}
+
+/* Score — light */
+.card-score-light {
+  font-family: var(--font-mono);
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1;
+  text-align: right;
+}
+.card-score-label-light {
+  font-size: 10px;
+  color: var(--text-tertiary);
+  text-align: right;
+  margin-top: 2px;
+}
+
+/* Name / brand */
+.card-name-dark {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-dark-primary);
+  margin-bottom: 4px;
+  line-height: 1.4;
+}
+.card-brand-dark { font-size: 11px; color: var(--text-dark-tertiary); margin-bottom: 14px; }
+
+.card-name-light {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+  line-height: 1.4;
+}
+.card-brand-light { font-size: 11px; color: var(--text-tertiary); margin-bottom: 14px; }
+
+/* Rank row */
+.card-rank-row { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
+
+.rank-chip-dark {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text-dark-secondary);
+  background: rgba(255,255,255,0.06);
+  border: 1px solid var(--border-dark);
+  padding: 3px 9px;
+  border-radius: 6px;
+}
+.rank-chip-light {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text-secondary);
+  background: #F9FAFB;
+  border: 1px solid var(--border-light);
+  padding: 3px 9px;
+  border-radius: 6px;
+}
+.rank-delta {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 7px;
+  border-radius: 5px;
+}
+.rank-delta.up-dark { background: rgba(16,185,129,0.15); color: var(--accent-mid); }
+.rank-delta.down-dark { background: rgba(239,68,68,0.15); color: #F87171; }
+.rank-delta.up-light { background: #D1FAE5; color: #065F46; }
+.rank-delta.down-light { background: #FEE2E2; color: #991B1B; }
+
+/* Signals */
+.card-signals { display: flex; flex-direction: column; gap: 7px; margin-bottom: 12px; }
+.signal-row { display: flex; align-items: center; justify-content: space-between; }
+.signal-label-dark { font-size: 10px; color: var(--text-dark-tertiary); min-width: 68px; }
+.signal-label-light { font-size: 10px; color: var(--text-tertiary); min-width: 68px; }
+.dots { letter-spacing: 2px; font-size: 12px; }
+.dot-on-dark { color: var(--accent); text-shadow: 0 0 5px rgba(16,185,129,0.55); }
+.dot-off-dark { color: var(--text-dark-tertiary); opacity: 0.35; }
+.dot-on-light { color: var(--accent); }
+.dot-off-light { color: #D1D5DB; }
+
+/* Bar */
+.card-bar-section {
+  padding-top: 12px;
+}
+.card-bar-section-dark { border-top: 1px solid var(--border-dark); padding-top: 12px; }
+.card-bar-section-light { border-top: 1px solid var(--border-light); padding-top: 12px; }
+.bar-label-row { display: flex; justify-content: space-between; margin-bottom: 6px; }
+.bar-label-dark { font-size: 10px; color: var(--text-dark-tertiary); }
+.bar-value-dark { font-family: var(--font-mono); font-size: 10px; color: var(--accent); font-weight: 600; }
+.bar-label-light { font-size: 10px; color: var(--text-tertiary); }
+.bar-value-light { font-family: var(--font-mono); font-size: 10px; color: var(--accent-dark); font-weight: 600; }
+.bar-track-dark {
+  height: 5px;
+  background: rgba(16,185,129,0.1);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.bar-fill-dark {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 3px;
+  width: 0;
+  box-shadow: 0 0 7px rgba(16,185,129,0.5);
+  transition: width 1.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.bar-track-light {
+  height: 6px;
+  background: var(--accent-light);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.bar-fill-light {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent) 0%, var(--accent-mid) 100%);
+  border-radius: 3px;
+  width: 0;
+  transition: width 1.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ── FOOTER ── */
+footer {
+  background: var(--bg-white);
+  border-top: 1px solid var(--border-light);
+  padding: 32px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-logo { font-weight: 700; font-size: 16px; color: var(--text-primary); }
+.footer-logo span { color: var(--accent); }
+.footer-copy { font-size: 12px; color: var(--text-tertiary); }
+.footer-links { display: flex; gap: 20px; }
+.footer-links a { font-size: 12px; color: var(--text-tertiary); text-decoration: none; transition: color 0.15s; }
+.footer-links a:hover { color: var(--text-secondary); }
+
+@media (prefers-reduced-motion: reduce) {
+  .bar-fill-dark, .bar-fill-light, .preview-bar-fill { transition: none; }
+  .card-dark, .card-light { opacity: 1; transform: none; }
+  .tier-confirmed-dark, .tier-confirmed-light { animation: none; }
+  .eyebrow-dot { animation: none; }
+}
+
+@media (max-width: 900px) {
+  body { min-width: 0; }
+  .hero-inner { grid-template-columns: 1fr; }
+  .hero-preview { display: none; }
+  .cards-grid-dark, .cards-grid-light { grid-template-columns: 1fr 1fr; }
+}
+</style>
+</head>
+<body>
+
+<!-- HEADER (Light / A style) -->
+<header>
+  <div class="logo">클리키 <span class="logo-star">✦</span></div>
+  <nav>
+    <a href="#">트렌딩</a>
+    <a href="#">제품</a>
+    <a href="#">키워드</a>
+    <a href="#">크리에이터</a>
+  </nav>
+  <button class="btn-trial">무료 체험 →</button>
+</header>
+
+<!-- HERO (Dark / B style) -->
+<section class="hero">
+  <div class="hero-glow-main"></div>
+  <div class="hero-glow-left"></div>
+  <div class="hero-inner">
+    <div class="hero-left">
+      <div class="hero-eyebrow">
+        <span class="eyebrow-dot"></span>
+        K-뷰티 트렌드 인텔리전스 · 매일 업데이트
+      </div>
+      <h1 class="hero-title">
+        지금 <em>뜨는</em> K-뷰티,<br>
+        매일 아침 먼저 알아요
+      </h1>
+      <p class="hero-desc">
+        올리브영 랭킹 + YouTube 버즈 + 네이버 검색량,<br>
+        3축 신호로 오늘의 트렌딩 제품을 발굴합니다.<br>
+        뷰티 크리에이터를 위한 콘텐츠 아이디어 엔진.
+      </p>
+      <div class="hero-actions">
+        <button class="btn-primary">무료로 시작하기</button>
+        <button class="btn-ghost">데모 보기</button>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <div class="stat-value"><span id="cnt-channels">0</span></div>
+          <div class="stat-label">트래킹 채널</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value"><span id="cnt-products">0</span></div>
+          <div class="stat-label">트렌딩 제품</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value">매일</div>
+          <div class="stat-label">업데이트</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero preview: dark glass -->
+    <div class="hero-preview">
+      <div class="preview-label">📊 실시간 TOP 3</div>
+      <div class="preview-top-card">
+        <div class="preview-card-header">
+          <span class="preview-badge">🔥 확인된 트렌드</span>
+          <div class="preview-score">1.80 <small>/ 2.0</small></div>
+        </div>
+        <div class="preview-name">무지개맨션 오브제 스테인 틴트</div>
+        <div class="preview-brand">무지개맨션 · 올리브영 18위</div>
+        <div class="preview-bar-track">
+          <div class="preview-bar-fill" data-target="90"></div>
+        </div>
+      </div>
+      <div class="preview-mini">
+        <span class="preview-mini-rank">#2</span>
+        <span class="preview-mini-name">메디힐 랩핑 세럼 마스크</span>
+        <span class="preview-mini-score">1.15</span>
+      </div>
+      <div class="preview-mini">
+        <span class="preview-mini-rank">#3</span>
+        <span class="preview-mini-name">에스트라 아토베리어 360 크림</span>
+        <span class="preview-mini-score">1.08</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TOP 3 CARDS — Dark glass (B style) -->
+<section class="section-dark">
+  <div class="section-inner">
+    <div class="section-header">
+      <div class="section-title-dark">
+        🔥 TOP 3 — 오늘의 트렌딩
+        <small>올리브영 × YouTube × 네이버 통합 점수 기준</small>
+      </div>
+      <div class="section-date-dark">2026.04.22</div>
+    </div>
+    <div class="cards-grid-dark">
+
+      <!-- Dark Card 1 -->
+      <div class="card-dark">
+        <div class="card-top">
+          <span class="tier-badge-dark tier-confirmed-dark">🔥 확인된 트렌드</span>
+          <div>
+            <div class="card-score-dark">1.80</div>
+            <div class="card-score-label-dark">TREND SCORE</div>
+          </div>
+        </div>
+        <div class="card-name-dark">무지개맨션 오브제 스테인 틴트</div>
+        <div class="card-brand-dark">무지개맨션</div>
+        <div class="card-rank-row">
+          <span class="rank-chip-dark">올리브영 18위</span>
+          <span class="rank-delta up-dark">↑12</span>
+        </div>
+        <div class="card-signals">
+          <div class="signal-row">
+            <span class="signal-label-dark">YouTube 버즈</span>
+            <span class="dots"><span class="dot-on-dark">●●●●</span><span class="dot-off-dark">○</span></span>
+          </div>
+          <div class="signal-row">
+            <span class="signal-label-dark">네이버 검색</span>
+            <span class="dots"><span class="dot-on-dark">●●●●●</span></span>
+          </div>
+        </div>
+        <div class="card-bar-section-dark">
+          <div class="bar-label-row">
+            <span class="bar-label-dark">트렌드 강도</span>
+            <span class="bar-value-dark">90%</span>
+          </div>
+          <div class="bar-track-dark"><div class="bar-fill-dark" data-target="90"></div></div>
+        </div>
+      </div>
+
+      <!-- Dark Card 2 -->
+      <div class="card-dark">
+        <div class="card-top">
+          <span class="tier-badge-dark tier-buzz-dark">📹 유튜브 버즈</span>
+          <div>
+            <div class="card-score-dark">1.15</div>
+            <div class="card-score-label-dark">TREND SCORE</div>
+          </div>
+        </div>
+        <div class="card-name-dark">메디힐 랩핑 세럼 마스크</div>
+        <div class="card-brand-dark">메디힐</div>
+        <div class="card-rank-row">
+          <span class="rank-chip-dark">올리브영 11위</span>
+          <span class="rank-delta up-dark">↑8</span>
+        </div>
+        <div class="card-signals">
+          <div class="signal-row">
+            <span class="signal-label-dark">YouTube 버즈</span>
+            <span class="dots"><span class="dot-on-dark">●●●</span><span class="dot-off-dark">○○</span></span>
+          </div>
+          <div class="signal-row">
+            <span class="signal-label-dark">네이버 검색</span>
+            <span class="dots"><span class="dot-on-dark">●●●</span><span class="dot-off-dark">○○</span></span>
+          </div>
+        </div>
+        <div class="card-bar-section-dark">
+          <div class="bar-label-row">
+            <span class="bar-label-dark">트렌드 강도</span>
+            <span class="bar-value-dark">57%</span>
+          </div>
+          <div class="bar-track-dark"><div class="bar-fill-dark" data-target="57"></div></div>
+        </div>
+      </div>
+
+      <!-- Dark Card 3 -->
+      <div class="card-dark">
+        <div class="card-top">
+          <span class="tier-badge-dark tier-confirmed-dark">🔥 확인된 트렌드</span>
+          <div>
+            <div class="card-score-dark">1.08</div>
+            <div class="card-score-label-dark">TREND SCORE</div>
+          </div>
+        </div>
+        <div class="card-name-dark">에스트라 아토베리어 360 크림</div>
+        <div class="card-brand-dark">에스트라</div>
+        <div class="card-rank-row">
+          <span class="rank-chip-dark">올리브영 3위</span>
+          <span class="rank-delta up-dark">↑5</span>
+        </div>
+        <div class="card-signals">
+          <div class="signal-row">
+            <span class="signal-label-dark">YouTube 버즈</span>
+            <span class="dots"><span class="dot-on-dark">●●●●</span><span class="dot-off-dark">○</span></span>
+          </div>
+          <div class="signal-row">
+            <span class="signal-label-dark">네이버 검색</span>
+            <span class="dots"><span class="dot-on-dark">●●●●</span><span class="dot-off-dark">○</span></span>
+          </div>
+        </div>
+        <div class="card-bar-section-dark">
+          <div class="bar-label-row">
+            <span class="bar-label-dark">트렌드 강도</span>
+            <span class="bar-value-dark">54%</span>
+          </div>
+          <div class="bar-track-dark"><div class="bar-fill-dark" data-target="54"></div></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- REMAINING 3 CARDS — Light (A style) -->
+<section class="section-light">
+  <div class="section-inner">
+    <div class="section-header" style="margin-top: 0; padding-top: 4px; margin-bottom: 22px;">
+      <div class="section-title-light">
+        더보기 — 모니터링 중
+        <small>상승 추세 감지 중인 제품</small>
+      </div>
+      <div class="section-date-light">+3개 제품</div>
+    </div>
+    <div class="cards-grid-light">
+
+      <!-- Light Card 4 -->
+      <div class="card-light">
+        <div class="card-top">
+          <span class="tier-badge-light tier-new-light">✨ 신규 발굴</span>
+          <div>
+            <div class="card-score-light">0.92</div>
+            <div class="card-score-label-light">트렌드 점수</div>
+          </div>
+        </div>
+        <div class="card-name-light">마녀공장 퓨어 소이빈 클렌징오일</div>
+        <div class="card-brand-light">마녀공장</div>
+        <div class="card-rank-row">
+          <span class="rank-chip-light">올리브영 48위</span>
+          <span class="rank-delta up-light">↑22</span>
+        </div>
+        <div class="card-signals">
+          <div class="signal-row">
+            <span class="signal-label-light">YouTube 버즈</span>
+            <span class="dots"><span class="dot-on-light">●</span><span class="dot-off-light">○○○○</span></span>
+          </div>
+          <div class="signal-row">
+            <span class="signal-label-light">네이버 검색</span>
+            <span class="dots"><span class="dot-on-light">●●●●●</span></span>
+          </div>
+        </div>
+        <div class="card-bar-section-light">
+          <div class="bar-label-row">
+            <span class="bar-label-light">트렌드 강도</span>
+            <span class="bar-value-light">46%</span>
+          </div>
+          <div class="bar-track-light"><div class="bar-fill-light" data-target="46"></div></div>
+        </div>
+      </div>
+
+      <!-- Light Card 5 -->
+      <div class="card-light">
+        <div class="card-top">
+          <span class="tier-badge-light tier-detect-light">📡 모니터링</span>
+          <div>
+            <div class="card-score-light">0.45</div>
+            <div class="card-score-label-light">트렌드 점수</div>
+          </div>
+        </div>
+        <div class="card-name-light">클리오 킬커버 파운웨어 쿠션</div>
+        <div class="card-brand-light">클리오</div>
+        <div class="card-rank-row">
+          <span class="rank-chip-light">올리브영 7위</span>
+          <span class="rank-delta down-light">↓2</span>
+        </div>
+        <div class="card-signals">
+          <div class="signal-row">
+            <span class="signal-label-light">YouTube 버즈</span>
+            <span class="dots"><span class="dot-on-light">●●</span><span class="dot-off-light">○○○</span></span>
+          </div>
+          <div class="signal-row">
+            <span class="signal-label-light">네이버 검색</span>
+            <span class="dots"><span class="dot-on-light">●●</span><span class="dot-off-light">○○○</span></span>
+          </div>
+        </div>
+        <div class="card-bar-section-light">
+          <div class="bar-label-row">
+            <span class="bar-label-light">트렌드 강도</span>
+            <span class="bar-value-light">22%</span>
+          </div>
+          <div class="bar-track-light"><div class="bar-fill-light" data-target="22"></div></div>
+        </div>
+      </div>
+
+      <!-- Light Card 6 -->
+      <div class="card-light">
+        <div class="card-top">
+          <span class="tier-badge-light tier-buzz-light">📹 유튜브 버즈</span>
+          <div>
+            <div class="card-score-light">0.88</div>
+            <div class="card-score-label-light">트렌드 점수</div>
+          </div>
+        </div>
+        <div class="card-name-light">라운드랩 독도 토너</div>
+        <div class="card-brand-light">라운드랩</div>
+        <div class="card-rank-row">
+          <span class="rank-chip-light">올리브영 25위</span>
+          <span class="rank-delta up-light">↑6</span>
+        </div>
+        <div class="card-signals">
+          <div class="signal-row">
+            <span class="signal-label-light">YouTube 버즈</span>
+            <span class="dots"><span class="dot-on-light">●●●</span><span class="dot-off-light">○○</span></span>
+          </div>
+          <div class="signal-row">
+            <span class="signal-label-light">네이버 검색</span>
+            <span class="dots"><span class="dot-on-light">●●●</span><span class="dot-off-light">○○</span></span>
+          </div>
+        </div>
+        <div class="card-bar-section-light">
+          <div class="bar-label-row">
+            <span class="bar-label-light">트렌드 강도</span>
+            <span class="bar-value-light">44%</span>
+          </div>
+          <div class="bar-track-light"><div class="bar-fill-light" data-target="44"></div></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">클리키 <span>✦</span></div>
+  <div class="footer-copy">© 2026 Clickyy. K-뷰티 트렌드 인텔리전스.</div>
+  <div class="footer-links">
+    <a href="#">서비스 소개</a>
+    <a href="#">이용약관</a>
+    <a href="#">개인정보처리방침</a>
+    <a href="#">문의</a>
+  </div>
+</footer>
+
+<script>
+function countUp(el, target, duration) {
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    el.textContent = target; return;
+  }
+  let startTime = null;
+  function step(ts) {
+    if (!startTime) startTime = ts;
+    const progress = Math.min((ts - startTime) / duration, 1);
+    const ease = 1 - Math.pow(1 - progress, 3);
+    el.textContent = Math.round(ease * target);
+    if (progress < 1) requestAnimationFrame(step);
+  }
+  requestAnimationFrame(step);
+}
+
+window.addEventListener('load', () => {
+  countUp(document.getElementById('cnt-channels'), 313, 1800);
+  countUp(document.getElementById('cnt-products'), 86, 1400);
+
+  // Preview bar
+  document.querySelectorAll('.preview-bar-fill[data-target]').forEach(el => {
+    setTimeout(() => { el.style.width = el.dataset.target + '%'; }, 500);
+  });
+});
+
+// IntersectionObserver for all animatable cards
+const allCards = document.querySelectorAll('.card-dark, .card-light');
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      const card = entry.target;
+      const idx = Array.from(allCards).indexOf(card);
+      setTimeout(() => {
+        card.classList.add('visible');
+        // Fill bars
+        card.querySelectorAll('.bar-fill-dark, .bar-fill-light').forEach(fill => {
+          fill.style.width = fill.dataset.target + '%';
+        });
+      }, idx * 85);
+      observer.unobserve(card);
+    }
+  });
+}, { threshold: 0.1 });
+
+allCards.forEach(card => observer.observe(card));
+</script>
+</body>
+</html>

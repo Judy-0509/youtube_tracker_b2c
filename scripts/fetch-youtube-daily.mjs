@@ -18,7 +18,7 @@ import { fileURLToPath } from 'node:url'
 import path from 'node:path'
 
 // ── 설정 ─────────────────────────────────────────────────────
-const LOOKBACK_DAYS = 7
+const LOOKBACK_DAYS = 30
 const MAX_RESULTS_PER_CHANNEL = 50   // 채널당 최대 조회 영상 수
 const COMMENT_FETCH_LIMIT = 300      // 댓글 수집 대상 영상 최대 수 (quota 절약)
 const API_BASE = 'https://www.googleapis.com/youtube/v3'
@@ -233,17 +233,22 @@ async function main() {
   let newVideoIds = videoIdList
 
   if (videoIdList.length > 0) {
-    const { data: existing, error: fetchErr } = await supabase
-      .from('youtube_videos')
-      .select('video_id')
-      .in('video_id', videoIdList)
-
-    if (fetchErr) {
-      console.error('❌ 기존 영상 조회 실패:', fetchErr.message)
-      process.exit(1)
+    // Supabase .in() 한 번에 최대 500개 제한 → 청크 처리
+    const CHUNK = 500
+    const existingSet = new Set()
+    for (let i = 0; i < videoIdList.length; i += CHUNK) {
+      const slice = videoIdList.slice(i, i + CHUNK)
+      const { data: existing, error: fetchErr } = await supabase
+        .from('youtube_videos')
+        .select('video_id')
+        .in('video_id', slice)
+      if (fetchErr) {
+        console.error('❌ 기존 영상 조회 실패:', fetchErr.message)
+        process.exit(1)
+      }
+      for (const r of existing ?? []) existingSet.add(r.video_id)
     }
 
-    const existingSet = new Set((existing ?? []).map((r) => r.video_id))
     newVideoIds = videoIdList.filter((id) => !existingSet.has(id))
     console.log(`\n  신규: ${newVideoIds.length}개 | 기존(스킵): ${existingSet.size}개`)
   }
