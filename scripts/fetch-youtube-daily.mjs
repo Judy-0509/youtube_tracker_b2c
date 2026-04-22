@@ -5,6 +5,7 @@
  *
  * 흐름:
  *  1. seed-channels.json에서 verified 채널 로드
+ *  1b. discovery_candidates (channel, auto_added)에서 추가 채널 로드
  *  2. 채널별 playlistItems.list → 최근 7일 영상 ID
  *  3. 신규 영상만 videos.list 배치 → 메타데이터 수집
  *  4. youtube_videos UPSERT
@@ -33,11 +34,28 @@ if (!env.url || !env.serviceKey || !env.youtubeKey) {
   process.exit(1)
 }
 
-// ── 채널 시드 로드 ────────────────────────────────────────────
+// ── 채널 시드 로드 (seed 파일 + DB auto_added 병합) ──────────
 const seedPath = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../data/seed-channels.json')
 const seed = JSON.parse(readFileSync(seedPath, 'utf-8'))
-const channels = seed.creators.filter((c) => c.verified_by_api === true)
-console.log(`📋 채널 시드: ${channels.length}개 (verified_by_api)`)
+const seedChannels = seed.creators.filter((c) => c.verified_by_api === true)
+
+const supabaseForLoad = createClient(env.url, env.serviceKey, {
+  auth: { autoRefreshToken: false, persistSession: false },
+})
+const { data: autoAddedRows } = await supabaseForLoad
+  .from('discovery_candidates')
+  .select('external_data')
+  .eq('candidate_type', 'channel')
+  .eq('status', 'auto_added')
+
+const seedIds = new Set(seedChannels.map((c) => c.channel_id))
+const autoAddedChannels = (autoAddedRows ?? [])
+  .map((r) => r.external_data)
+  .filter((d) => d?.channel_id && !seedIds.has(d.channel_id))
+  .map((d) => ({ channel_id: d.channel_id, name: d.channel_name ?? '', verified_by_api: true }))
+
+const channels = [...seedChannels, ...autoAddedChannels]
+console.log(`📋 채널: ${seedChannels.length}개 (시드) + ${autoAddedChannels.length}개 (자동발굴) = ${channels.length}개`)
 
 // ── 할당량 카운터 ─────────────────────────────────────────────
 let quotaUsed = 0

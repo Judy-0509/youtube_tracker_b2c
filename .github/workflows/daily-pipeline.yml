@@ -1,0 +1,111 @@
+name: Daily Data Pipeline
+
+on:
+  schedule:
+    - cron: '0 18 * * *'   # 03:00 KST (UTC+9)
+  workflow_dispatch:         # 수동 실행 허용
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright Chromium
+        run: npx playwright install chromium --with-deps
+
+      # ── 1. 올리브영 베스트 크롤 ─────────────────────────────
+      - name: Scrape OliveYoung
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: node scripts/scrape-oliveyoung.mjs
+
+      # ── 2. YouTube 채널 영상 수집 ────────────────────────────
+      - name: Fetch YouTube Daily
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: node scripts/fetch-youtube-daily.mjs
+
+      # ── 3. 광고 분류 ─────────────────────────────────────────
+      - name: Classify Ads
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: node scripts/classify-ads.mjs
+
+      # ── 4. 제품 매칭 ─────────────────────────────────────────
+      - name: Match Products
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: node scripts/match-products.mjs
+
+      # ── 5. 네이버 검색 트렌드 ───────────────────────────────
+      - name: Fetch Naver Trends
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+        run: node scripts/fetch-naver-trends.mjs
+
+      # ── 6. 네이버 쇼핑 가격 ─────────────────────────────────
+      - name: Fetch Naver Shopping
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+        run: node scripts/fetch-naver-shopping.mjs
+
+      # ── 7. 트렌딩 점수 계산 ─────────────────────────────────
+      - name: Compute Trending Scores
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: node scripts/compute-trending.mjs
+
+      # ── 8. 발굴 큐 적재 ─────────────────────────────────────
+      - name: Find Discovery Candidates
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: node scripts/find-discovery-candidates.mjs
+
+      # ── 9. 신규 크리에이터 발굴 ─────────────────────────────
+      - name: Discover New Channels
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: node scripts/discover-new-channels.mjs
+
+      # ── seed-channels.json 변경 시 커밋 ─────────────────────
+      - name: Commit updated seed-channels.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/seed-channels.json
+          if git diff --cached --quiet; then
+            echo "No changes to seed-channels.json"
+          else
+            git commit -m "chore: auto-update seed-channels.json [skip ci]"
+            git push
+          fi
