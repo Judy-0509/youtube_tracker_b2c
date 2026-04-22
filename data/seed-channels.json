@@ -2,7 +2,7 @@
   "version": "1.0",
   "generated": "2026-04-20",
   "note": "Discovered via search.list(type=channel, regionCode=KR, relevantLanguage=ko). Filtered by country=KR / defaultLanguage=ko / Korean text in title/description.",
-  "total": 302,
+  "total": 313,
   "creators": [
     {
       "channel_id": "UCT-_4GqC-yLY1xtTHhwY0hA",
@@ -4366,6 +4366,182 @@
       "verified_by_api": true,
       "discovery_source": "oliveyoung_keyword",
       "oliveyoung_video_count": 2
+    },
+    {
+      "channel_id": "UCzbvKkeA9dCyhyKYBdTVZhA",
+      "handle": "@thepositivityis",
+      "name": "긍정은",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 6010,
+      "subscriber_tier": "micro",
+      "video_count": 43,
+      "verified_by_api": true,
+      "discovery_source": "product_search",
+      "discovery_trigger": "메디힐 랩핑 세럼 마스크 10매 6종"
+    },
+    {
+      "channel_id": "UC1EF4_0XfxjY6yFDwGi6BVA",
+      "handle": "@uareb",
+      "name": "유알비 UareB",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 8420,
+      "subscriber_tier": "micro",
+      "video_count": 328,
+      "verified_by_api": true,
+      "discovery_source": "product_search",
+      "discovery_trigger": "무지개맨션 오브제 스테인 틴트"
+    },
+    {
+      "channel_id": "UCTKFuKkJdJ-2Xt9DntKNtfw",
+      "handle": "@가을립",
+      "name": "가을립 ・ 1분컷 립발색💄",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 33300,
+      "subscriber_tier": "micro",
+      "video_count": 200,
+      "verified_by_api": true,
+      "discovery_source": "product_search",
+      "discovery_trigger": "무지개맨션 오브제 스테인 틴트"
+    },
+    {
+      "channel_id": "UCZZSPYTWU5Yr7wQHguPrlSQ",
+      "handle": "@solbbanguling",
+      "name": "솔빵구리 solbbang",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 68100,
+      "subscriber_tier": "micro",
+      "video_count": 571,
+      "verified_by_api": true,
+      "discovery_source": "product_search",
+      "discovery_trigger": "무지개맨션 오브제 스테인 틴트"
+    },
+    {
+      "channel_id": "UCRQnKekv3IEc2CvrT0Cgt5w",
+      "handle": "@raon6410",
+      "name": "리브린랩 홈케어 연구소",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 8030,
+      "subscriber_tier": "micro",
+      "video_count": 626,
+      "verified_by_api": true,
+      "discovery_source": "product_search",
+      "discovery_trigger": "메디힐 랩핑 세럼 마스크 10매 6종"
+    },
+    {
+      "channel_id": "UC9P1tkf6e0hS7vzuDEuuAeA",
+      "handle": "@ssongyang",
+      "name": "쏭냥",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 260000,
+      "subscriber_tier": "mid",
+      "video_count": 800,
+      "verified_by_api": true,
+      "discovery_source": "product_search",
+      "discovery_trigger": "메디힐 랩핑 세럼 마스크 10매 6종"
+    },
+    {
+      "channel_id": "UCEzhyH0n4igPooUJOVcq-HQ",
+      "handle": "@shoohee_",
+      "name": "슈히Shoohee",
+      "country": null,
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 113000,
+      "subscriber_tier": "mid",
+      "video_count": 517,
+      "verified_by_api": true,
+      "discovery_source": "product_search",
+      "discovery_trigger": "메디힐 랩핑 세럼 마스크 10매 6종"
+    },
+    {
+      "channel_id": "UCfWeb7WmlWo1q4Lb4V5lLWQ",
+      "handle": "@유치치",
+      "name": "유치치 chichi U",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 22600,
+      "subscriber_tier": "micro",
+      "video_count": 331,
+      "verified_by_api": true,
+      "discovery_source": "product_search",
+      "discovery_trigger": "메디힐 랩핑 세럼 마스크 10매 6종"
+    },
+    {
+      "channel_id": "UCP22TULDm1OmDUM4mLGaYrA",
+      "handle": "@ba_dang",
+      "name": "바당 𝐁𝐀𝐃𝐀𝐍𝐆",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 14100,
+      "subscriber_tier": "micro",
+      "video_count": 36,
+      "verified_by_api": true,
+      "discovery_source": "product_search",
+      "discovery_trigger": "메디힐 랩핑 세럼 마스크 10매 6종"
+    },
+    {
+      "channel_id": "UC5HxSifhWxCbnWlxzh3378w",
+      "handle": "@bing__bing",
+      "name": "빙빙이 bingbing",
+      "country": "KR",
+      "default_language": null,
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 70000,
+      "subscriber_tier": "micro",
+      "video_count": 326,
+      "verified_by_api": true,
+      "discovery_source": "product_search",
+      "discovery_trigger": "메디힐 랩핑 세럼 마스크 10매 6종"
+    },
+    {
+      "channel_id": "UCRK1Ohk5k-iY_bOfkbagEWA",
+      "handle": "@podowalwal",
+      "name": "포도podo",
+      "country": "KR",
+      "default_language": "ko",
+      "category_tags": [
+        "beauty"
+      ],
+      "subscriber_count_approx": 12500,
+      "subscriber_tier": "micro",
+      "video_count": 342,
+      "verified_by_api": true,
+      "discovery_source": "product_search",
+      "discovery_trigger": "무지개맨션 오브제 스테인 틴트"
     }
   ],
   "pruned_at": "2026-04-20T23:28:23.665Z",
