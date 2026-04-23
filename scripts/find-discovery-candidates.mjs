@@ -23,7 +23,7 @@ async function main() {
     auth: { autoRefreshToken: false, persistSession: false },
   })
 
-  const today = new Date().toISOString().split('T')[0]
+  const today = new Date(Date.now() + 9*3600000).toISOString().split('T')[0]
 
   // 1) 오늘 trending_scores 로드
   const { data: scores, error } = await supabase

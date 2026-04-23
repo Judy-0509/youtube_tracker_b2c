@@ -95,7 +95,7 @@ async function main() {
 
   // 2) 키워드별 쇼핑 API 호출
   console.log('\n📡 네이버 쇼핑 API 호출...')
-  const today = new Date().toISOString().split('T')[0]
+  const today = new Date(Date.now() + 9*3600000).toISOString().split('T')[0]
   const rows = []
   let apiErrors = 0
 

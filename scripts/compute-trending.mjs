@@ -74,7 +74,7 @@ async function main() {
     auth: { autoRefreshToken: false, persistSession: false },
   })
 
-  const today = toDateStr(new Date())
+  const today = toDateStr(new Date(Date.now() + 9*3600000))
   console.log(`📅 계산 날짜: ${today}`)
 
   // ── 1) 전체 제품 로드 ────────────────────────────────────────

@@ -129,7 +129,7 @@ async function main() {
   console.log(`\n  수집 완료: ${trendResults.size}개 키워드 (에러: ${apiErrors}회)`)
 
   // 3) search_trends rows 생성
-  const today = toDateStr(new Date())
+  const today = toDateStr(new Date(Date.now() + 9*3600000))
   const rows = []
 
   for (const [keyword, dataPoints] of trendResults) {

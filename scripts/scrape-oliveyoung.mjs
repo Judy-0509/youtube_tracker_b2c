@@ -168,7 +168,7 @@ async function fetchHtml(targetUrl) {
 }
 
 async function upsertAll(supabase, normalized) {
-  const today = new Date().toISOString().split('T')[0]
+  const today = new Date(Date.now() + 9*3600000).toISOString().split('T')[0]
   const stats = { brands: 0, products: 0, sources: 0, rankings: 0, skipped: 0, errors: 0 }
 
   for (const item of normalized) {
